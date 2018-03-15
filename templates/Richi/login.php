@@ -5,16 +5,41 @@
  * Date: 14/03/2018
  * Time: 12:26 AM
  */
+
     $servername = "localhost";
     $username = "root";
     $password = "qonmqa3p";
+    $database = "DinnoApp";
 
     // Create connection
-    $conn = new mysqli($servername, $username, $password);
+    $conn = mysqli_connect($servername, $username, $password, $database);
 
     // Check connection
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
+    }
+
+    if($_SERVER["REQUEST_METHOD"]=="POST"){
+
+        $email = mysqli_real_escape_string($conn,$_POST['inputEmail']);
+        $pass = mysqli_real_escape_string($conn,$_POST['inputPassword']);
+
+        $sql = "select correo from usuario where correo = '$email'";
+        $check_name = mysqli_query($conn,$sql);
+
+        if (mysqli_num_rows($check_name)==0){
+            echo "No existe el usuario";
+        }else{
+            $sql = "select password from usuario where password = '$pass'";
+            $check_pass = mysqli_query($conn,$sql);
+            if (mysqli_num_rows($check_pass)==0){
+                echo "Contraseña incorrecta";
+            }else{
+                header("location: welcome.php");
+            }
+        }
+
+
     }
 
 ?>
@@ -32,7 +57,7 @@
         .login{
             background: white;
             border-radius: 10px;
-            margin-top: 150px;
+            margin-top: 15vh;
             padding: 50px;
             transition: all 0.7s ease-out;
         }
@@ -60,48 +85,50 @@
         </div>
         <div class="data col-6">
             <h1>Inicia Sesion</h1>
-            <form>
+            <form method="post">
                 <div class="form-group row">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                    <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="inputEmail">
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
                     <div class="col-sm-10">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password" name="inputPassword">
                     </div>
                 </div>
+                <button type="submit" id="login-btn" class="col-6 btn btn-primary">Entrar</button>
             </form>
             <p>Aun no te has Registrado?</p>
             <button id="register-btn" class="col-6 btn btn-primary">Registrate</button>
         </div>
+
         <div class="register col-6">
             <h1>Registrate</h1>
             <form>
                 <div class="form-group row">
-                    <label for="inputCorreo" class="col-sm-2 col-form-label">Correo</label>
+                    <label for="nEmail" class="col-sm-2 col-form-label">Correo</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                        <input type="email" class="form-control" id="nEmail" placeholder="Email">
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="inputPassword" class="col-sm-2 col-form-label">Contrasena</label>
+                    <label for="nPassword" class="col-sm-2 col-form-label">Contrasena</label>
                     <div class="col-sm-10">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="Contrasena">
+                        <input type="password" class="form-control" id="nPassword" placeholder="Contrasena">
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="inputPassword" class="col-sm-2 col-form-label"></label>
+                    <label for="ncPassword" class="col-sm-2 col-form-label"></label>
                     <div class="col-sm-10">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="Confirmar Contrasena">
+                        <input type="password" class="form-control" id="ncPassword" placeholder="Confirmar Contrasena">
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="inputEdad" class="col-sm-2 col-form-label">Edad</label>
+                    <label for="nEdad" class="col-sm-2 col-form-label">Edad</label>
                     <div class="col-sm-10">
-                        <input type="number" class="form-control" id="inputPassword3" placeholder="Edad">
+                        <input type="number" class="form-control" id="nEdad" placeholder="Edad">
                     </div>
                 </div>
                 <fieldset class="form-group">
@@ -109,14 +136,14 @@
                         <legend class="col-form-label col-sm-2 pt-0">Sexo</legend>
                         <div class="col-sm-10">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                <label class="form-check-label" for="gridRadios1">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="rMGender" value="option1" checked>
+                                <label class="form-check-label" for="rMGender">
                                     Masculino
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                <label class="form-check-label" for="gridRadios2">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="rFGender" value="option2">
+                                <label class="form-check-label" for="rFGender">
                                     Femenino
                                 </label>
                             </div>
@@ -141,7 +168,7 @@
 <script>
     var $data = $('.data');
     var $register = $('.register');
-    $data.hide();
+    $register.hide();
 
     $('#register-btn').click(function () {
         $data.fadeOut(400,function () {
