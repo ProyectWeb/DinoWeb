@@ -16,8 +16,9 @@
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
         <link rel="stylesheet" href="css/owl.carousel.min.css">
         <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/meanmenu.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/resposive.css">
+        <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
        
@@ -26,8 +27,8 @@
            <div class="header-area d-flex align-items-center">
                <div class="container pos">
                    <div class="row align-items-center">
-                       <div class="col-xl-5 col-lg-5 col-md-8 static">
-                           <div class="main-menu">
+                       <div class="col-xl-5 col-lg-5 col-md-12 static">
+                           <div class="main-menu d-none d-md-block">
                                <nav>
                                    <ul>
                                        <li><a href="#">Home <i class="fas fa-angle-down"></i></a>
@@ -109,15 +110,51 @@
                                    </ul>
                                </nav>
                            </div>
+                           <div class="mobile-menu d-md-none">
+                               <nav id="mobile-menu">
+                                  <ul>
+                                      <li><a href="#">Home <i class="fas fa-angle-down"></i></a>
+                                           <ul class="submenu">
+                                               <li><a href="#">Home Style 1</a></li>
+                                               <li><a href="#">Home Style 2</a>
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Home Style 1</a></li>
+                                                        <li><a href="#">Home Style 2</a></li>
+                                                        <li><a href="#">Home Style 3</a>
+                                                            <ul class="submenu">
+                                                                <li><a href="#">Home Style 1</a></li>
+                                                                <li><a href="#">Home Style 2</a></li>
+                                                                <li><a href="#">Home Style 3</a></li>
+                                                                <li><a href="#">Home Style 4</a></li>
+                                                                <li><a href="#">Home Style 5</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#">Home Style 4</a></li>
+                                                        <li><a href="#">Home Style 5</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Home Style 3</a></li>
+                                                <li><a href="#">Home Style 4</a></li>
+                                                <li><a href="#">Home Style 5</a></li>
+                                            </ul>
+                                        </li>
+                                     
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Shop</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                   </ul> 
+                               </nav>
+                           </div>
                        </div>
 
-                       <div class="col-xl-2 col-lg-3 col-md-4 d-flex align-items-center">
+                       <div class="col-xl-2 col-lg-3 col-md-4 d-flex align-items-center justify-content-center">
                            <div class="logo text-center">
                                <a href="index.html"><img src="img/logo.png" alt=""></a>
                            </div>
                         </div>
 
-                        <div class="col-xl-5 col-lg-4 d-flex align-items-center justify-content-end">
+                        <div class="col-xl-5 col-lg-4 col-md-8 d-flex align-items-center justify-content-md-end justify-content-center ">
                             <div class="header-right text-right">
                                 <ul>
                                     <li><a href="#">Login</a></li>
@@ -1871,7 +1908,7 @@
            <div class="container">
                 <div class="subcribe-bg gray-bg pt-140 pb-140">
                    <div class="row">
-                       <div class="col-xl-6 col-lg-8 offset-lg-2 offset-xl-3">
+                       <div class="col-xl-6 col-lg-8 col-md-10 offset-md-1 offset-lg-2 offset-xl-3">
                            <div class="suscribe-wrapper text-center">
                                <h2>Keep updated</h2>
                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -1928,7 +1965,7 @@
            <div class="footer-area pt-110 pb-80">
                <div class="container">
                    <div class="row">
-                       <div class="col-xl-3 col-lg-3 col-mb-30">
+                       <div class="col-xl-3 col-lg-3 col-md-6 col-mb-30">
                            <div class="footer-widget">
                                <h3>About</h3>
                                <div class="footerl-link">
@@ -1941,7 +1978,7 @@
                            </div>
                        </div>
 
-                         <div class="col-xl-3 col-lg-3 col-mb-30">
+                         <div class="col-xl-3 col-lg-3 col-md-6 col-mb-30">
                            <div class="footer-widget">
                                <h3>About</h3>
                                <div class="footerl-link">
@@ -1955,7 +1992,7 @@
                        </div>
 
 
-                         <div class="col-xl-3 col-lg-3 col-mb-30">
+                         <div class="col-xl-3 col-lg-3 col-md-6 col-mb-30">
                            <div class="footer-widget">
                                <h3>About</h3>
                                <div class="footerl-link">
@@ -1968,7 +2005,7 @@
                            </div>
                        </div>
 
-                        <div class="col-xl-3 col-lg-3 col-mb-30">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-mb-30">
                            <div class="footer-widget">
                                <h3>About</h3>
                                <div class="footerl-link">
@@ -1987,8 +2024,8 @@
                <div class="container">
                    <div class="footer-border">
                        <div class="row">
-                           <div class="col-xl-6 col-lg-7">
-                               <div class="footer-menu">
+                           <div class="col-xl-6 col-lg-7 col-md-12">
+                               <div class="footer-menu  ">
                                    <nav>
                                        <ul>
                                            <li><a href="#">Blog</a></li>
@@ -2001,8 +2038,8 @@
                                    </nav>
                                </div>
                            </div>
-                           <div class="col-xl-6 col-lg-5">
-                               <div class="footer-icon text-right">
+                           <div class="col-xl-6 col-lg-5 col-md-12">
+                               <div class="footer-icon text-left text-md-center text-lg-right">
                                    <span>Connect with us:</span>
                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -2041,6 +2078,7 @@
         <script src="js/popper.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.meanmenu.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 

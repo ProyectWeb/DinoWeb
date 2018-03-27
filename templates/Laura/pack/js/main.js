@@ -1,6 +1,15 @@
 (function ($) {
 "use strict";
 
+
+	jQuery('#mobile-menu').meanmenu({
+		meanMenuContainer: '.mobile-menu',
+		meanScreenWidth: "767"
+
+	});
+
+
+
 //carousel
 $('.slider-active').owlCarousel({
     loop:true,
@@ -28,13 +37,16 @@ $('.product-active').owlCarousel({
     navText:['Back','Next'],
     responsive:{
         0:{
-            items:1
+            items:1,
+            nav:false,
         },
-        600:{
-            items:1
+        768:{
+            items:2
         },
-
-        1000:{
+        992:{
+            items:4
+        },
+        1200:{
             items:4
         }
     }
@@ -51,10 +63,10 @@ $('.brand-active').owlCarousel({
     navText:['Back','Next'],
     responsive:{
         0:{
-            items:1
+            items:2
         },
-        600:{
-            items:1
+        768:{
+            items:3
         },
         992:{
             items:5
@@ -64,6 +76,11 @@ $('.brand-active').owlCarousel({
         }
     }
 })
+
+
+
+//select
+$('select').niceSelect();
 
 
 
