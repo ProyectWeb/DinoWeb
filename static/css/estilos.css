@@ -15,9 +15,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   letter-spacing: 1.5px;
 }
-
-
+.section__titulo{
+  text-align:center;
+  font-size: 40px;
+  color: #FBA919;
 }
+
+
 /*-------------------Estilos del header-------------------*/
 .header {
   height: 60px;
@@ -25,6 +29,10 @@ h1, h2, h3, h4, h5, h6 {
 .header .contenedor {
   display: flex;
  
+}
+.logo, .icon-menu{
+  margin: 5px;
+  color: #fff;
 }
 
 .icon-menu {
@@ -44,9 +52,10 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
   position: absolute;
   top: 60px;
-  left: 0%;
+  left: -100%;
   width: 100%;
   transition: all 0.4s;
+
 }
 .menu {
   list-style: none;
@@ -55,14 +64,75 @@ h1, h2, h3, h4, h5, h6 {
 }
 .menu__link{
   display: block;
-  padding: 20px;
+  padding: 15px;
   background: #FBA919;
+  text-decoration: none;
   color: #fff;
 }
-.menu__link:hover{
+.menu__link:hover, .select {
   background: white;
   color: #FBA919;
 }
+
+.mostrar{
+  left:0;
+}
+
+/*--------------Estilos de banner--------------*/
+.banner{
+  margin-top: -60px;
+  position: relative;
+  z-index: -1000;
+  margin-bottom: 20px;
+}
+.banner .contenedor{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+width: 100%;
+color: #fff;
+text-align: center;
+}
+.banner__txt{
+  display: none;
+}
+/*-----------------Estilos de info-----------------*/
+.info__columna{
+  background: #FBA919;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+/*-----------------Estilos de cursos-----------------*/
+.cursos__columna{
+  position: relative;
+  margin-bottom: absolute;
+}
+.cursos__descripcion{
+position: absolute;
+top: 0;
+left: 0;
+color: #fff;
+background: rgba(0,0,0,0.4);
+width: 60%;
+height: 100px;
+padding: 5px;
+}
+.cursos__titulo{
+  font-size: 25px;
+  margin: 5px 0;
+}
+/*-----------------Estilos de footer-----------------*/
+.footer{
+  background: #333;
+  color:#fff;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
 
 
 
