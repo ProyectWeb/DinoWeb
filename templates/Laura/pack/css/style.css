@@ -203,6 +203,7 @@ label {
   transition: all 0.3s ease 0s;
   visibility: hidden;
   width: 220px;
+  z-index: 193;
 }
 .main-menu ul li:hover > ul.submenu{
 	opacity:1;
@@ -236,6 +237,7 @@ label {
   transition: all 0.3s ease 0s;
   visibility: hidden;
   width: 700px;
+  z-index: 124;
 }
 .main-menu ul li:hover .mega-menu{opacity:1;visibility:visible;top:100%}
 
@@ -299,6 +301,7 @@ label {
 	transition: all 0.3s ease 0s;
 	visibility: hidden;
 	width: 380px;
+	z-index: 2124;
 }
 
 .header-right li:hover ul.minicart{
@@ -397,6 +400,7 @@ ul.minicart .cart-content a{
 	width: 430px;
 	opacity: 0;
 	visibility: hidden;
+	z-index: 9;
 
 }
 
@@ -430,7 +434,7 @@ ul.minicart .cart-content a{
 	position: relative;
 }
 
-::-moz-placeholder {
+.header-right ul li .search-form form input::-moz-placeholder {
 	color: #fff;
 	opacity: 1;
 }
@@ -440,6 +444,8 @@ ul.minicart .cart-content a{
 /*Slider*/
 .single-slider{
 	align-items: center;
+	background-position: center center;
+	background-size: cover;
 	display: flex;
 	height: 400px;
 }
@@ -495,10 +501,26 @@ ul.minicart .cart-content a{
 
 .product-img{
 	position: relative;
+	overflow: hidden;
 }
+
+
 .product-img img{
 	width: 100%;
 }
+
+/*No es seguro dejar secondary img*/
+.secondary-img{
+	opacity: 0;
+	position: absolute;
+	top: 15%;
+	transition: all 0.3s ease 0s;
+}
+.product-wrapper:hover .secondary-img{
+	opacity: 1;
+	top:0;
+}
+
 .product-action{
 	background: #fff none repeat scroll 0 0;
 	left: 0;
@@ -534,7 +556,7 @@ ul.minicart .cart-content a{
 
 }
 
-.product-content.text-center > h3{
+.product-content > h3{
 	color: #222;
 	font-size: 14px;
 	letter-spacing: 2px;
@@ -552,9 +574,193 @@ ul.minicart .cart-content a{
 .price > span {
 	font-family: oswald;
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: 500;
 }
 .price > span del{
 	font-family: inherit;
-	font-size: 18px;
+	font-size: 14px;
+	color: #888888;
 }
+
+.product-content{
+	padding-top: 20px;
+}
+.cart-btn{
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+	transform: translateY(-96%);
+}
+.cart-btn > a{
+	color: #222;
+	display: inline-block;
+	font-family: oswald;
+	font-weight: 600;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	position: relative;
+	
+}
+
+.cart-btn > a::before{
+	background: #111 none repeat scroll 0 0;
+	bottom: 0;
+	content: "";
+	height: 1px;
+	position: absolute;
+	width: 100%;
+
+}
+
+
+.product-wrapper:hover .cart-btn{
+	background: #fff none repeat scroll 0 0;
+	opacity: 1;
+	visibility: visible;
+}
+
+
+/*Estilos para el menu de productos*/
+.product-tab{
+
+}
+
+.product-tab ul{
+
+}
+
+.product-tab ul li{
+ margin-right: 60px;
+}
+
+.product-tab ul li a{
+	color: #222;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 0;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.product-tab ul li a.active:before{
+	background: #222 none repeat scroll 0 0;
+	bottom: 0;
+	content: "";
+	height: 1px;
+	position: absolute;
+	width: 100%;
+}
+
+.nav-style{
+
+}
+.nav-style .owl-nav div{
+	
+	font-size: 12px;
+	position: absolute;
+	right: 0px;
+	text-transform: uppercase;
+	top: 80px;
+}
+.nav-style .owl-nav div.owl-prev{
+	right: 60px;
+}
+
+/*Segundas cartas*/
+.banner-img img{
+	width: 100%;
+}
+
+
+/*EMAIL*/
+
+.suscribe-wrapper > h2{
+	color: #222222;
+	font-family: oswald;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.suscribe-wrapper > p{
+	color: #888888;
+	font-style: italic;
+	margin-bottom: 50px;
+}
+
+
+.suscribe-wrapper input{
+	border: 1px solid #dddddddd;
+	float: left;
+	height: 45px;
+	width: 70%;
+	padding: 0 15px;
+
+}
+
+
+.suscribe-wrapper button{
+	background: #222222 none repeat scroll 0 0;
+	border: 0 none;
+	color: #fff;
+	padding: 10px 25px;
+	text-transform: uppercase;
+}
+
+
+/*Estilos de iconos*/
+.brand-active.owl-carousel .owl-item img{
+	display: block;
+	width: inherit;
+}
+.brand-active{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 120px;
+}
+.single-brand > a{
+	display: inline-block;
+}
+
+.single-brand{
+	text-align: center;
+}
+
+
+/*Footer*/
+.footerl-link a{
+	color: #888888;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 35px;
+}
+
+.footer-widget > h3{
+	color: #222222;
+	font-size: 16px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+.footer-menu li{
+	display: inline-block;
+	margin-right: 35px;
+}
+.footer-menu li a{
+	color: #888888;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.footer-border{
+	border-top: 1px solid #ddd;
+	padding: 50px 0;
+}
+
+.footer-icon > span{
+	color: #222222;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.footer-icon.text-right > a{
+	color: #aaaaaa;
+	font-size: 16px;
+	margin-left: 12px;
+}
+
