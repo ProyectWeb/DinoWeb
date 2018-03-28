@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 .section__titulo {
   text-align: center;
   font-size: 40px;
-  color: #FBA919;
+  color: #000000;
 }
 .contenedor {
   margin: auto;
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   font-size: 30px;
-  background: #FBA919;
+  background: #0080FF;
   text-align: center;
   line-height: 45px;
   border-radius: 5px;
@@ -64,13 +64,13 @@ h1, h2, h3, h4, h5, h6 {
 .menu__link {
   display: block;
   padding: 15px;
-  background: #FBA919;
+  background:#0080FF;
   text-decoration: none;
-  color: #fff;
+  color:#000000;
 }
 .menu__link:hover, .select {
   background: white;
-  color: #FBA919;
+  color: #000000;
 }
 .mostrar {
   left: 0;
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 100%;
-  color: #fff;
+  color:#FFFFFF;
   text-align: center;
 }
 
@@ -101,8 +101,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /*-----------------Estilos de info-----------------*/
 .info__columna {
-  background: #FBA919;
-  color: #fff;
+  background:#0080FF;
+  color: #FFFFFF;
   padding: 15px;
   margin-bottom: 30px;
 }
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   color: #fff;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,255,0.5);
   width: 60%;
   height: 100%;
   padding: 5px;
@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .select {
     color: #fff;
-    background: #FBA919;
+    background: #0080FF;
   }
   .banner__titulo {
     font-size: 60px;
