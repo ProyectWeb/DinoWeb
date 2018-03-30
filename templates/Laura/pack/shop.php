@@ -12,9 +12,10 @@
         
 
         <!--CSS-->
+       
         <link rel="stylesheet" href="../../../static/css/bootstrap.css">
         <link rel="stylesheet" href="../../../static/css/catalogoestilos/style.css">
-        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="../.../catalogoestilos/css/fontawesome/web-fonts-with-cssfontawesome-all.min.css">
         <link rel="stylesheet" href="../../../static/css/catalogoestilos/owl.carousel.min.css">
         <link rel="stylesheet" href="../../../static/css/catalogoestilos/default.css">
         <link rel="stylesheet" href="../../../static/css/catalogoestilos/nice-select.css">
