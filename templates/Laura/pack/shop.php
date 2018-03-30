@@ -13,12 +13,13 @@
 
         <!--CSS-->
         <link rel="stylesheet" href="../../../static/css/bootstrap.css">
+        <link rel="stylesheet" href="../../../static/css/catalogoestilos/style.css">
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
         <link rel="stylesheet" href="../../../static/css/catalogoestilos/owl.carousel.min.css">
         <link rel="stylesheet" href="../../../static/css/catalogoestilos/default.css">
         <link rel="stylesheet" href="../../../static/css/catalogoestilos/nice-select.css">
         <link rel="stylesheet" href="../../../static/css/catalogoestilos/meanmenu.css">
-        <link rel="stylesheet" href="../../../static/css/catalogoestilos/style.css">
+        
         <link rel="stylesheet" href="../../../static/css/catalogoestilos/responsive.css">
     </head>
     <body>
@@ -108,16 +109,13 @@
                                           <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
-                                                          <img src="img/shop/divulgacion1.jpg" alt="">
+                                                      <a href="../../dinotemplates/divulgacioncientifica/education/index.html">
+                                                          <img class="adapt" src="img/shop/divulgacion1.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/divulgacioncientifica/education/index.html"><i class="fas fa-eye"></i></a>
-                                                            
-                                                        </div>
+                                                        
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla aprendizaje</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -130,23 +128,19 @@
                                                              <span><del>$239.9</del></span>
                                                          </div>
                                                          <div class="cart-btn">
-                                                             <a href="../../dinotemplates/divulgacioncientifica/king/index.html">Hacer pedido</a>
+                                                             <a href="#">Hacer pedido</a>
                                                          </div>
                                                       </div>
                                                   </div>
 
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
+                                                      <a href="../../dinotemplates/divulgacioncientifica/plantilla3/index.html">
                                                           <img src="img/shop/divul2.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/divulgacioncientifica/plantilla3/index.html"><i class="fas fa-eye"></i></a>
-                                                            
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla study</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -168,15 +162,12 @@
                                           <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
+                                                      <a href="../../dinotemplates/divulgacioncientifica/king/index.html">
                                                           <img src="img/shop/divulgacion3.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="#"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla aqua</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -196,15 +187,12 @@
 
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
-                                                          <img src="img/shop/divulgacion1.jpg" alt="">
+                                                      <a href="../../dinotemplates/divulgacioncientifica/plantilla4/index.html">
+                                                          <img src="img/shop/divulgacio4.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="#"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla investigación</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -226,15 +214,12 @@
                                           <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
-                                                          <img src="img/shop/divul2.jpg" alt="">
+                                                      <a href="../../dinotemplates/divulgacioncientifica/plantilla5/index.html">
+                                                          <img src="img/shop/divulgacio5.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="#"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla animals</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -254,14 +239,11 @@
                                               
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
-                                                          <img src="img/shop/divulgacion3.jpg" alt="">
-                                                        <div class="product-action">
-                                                            <a href="#"><i class="fas fa-eye"></i></a>
-                                                        </div>
+                                                      <a href="../../dinotemplates/divulgacioncientifica/plantilla6/index.html">
+                                                          <img src="img/shop/divulgacio6.jpg" alt="">
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla plants</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -300,7 +282,7 @@
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla aprendizaje</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -333,7 +315,7 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="#../../dinotemplates/divulgacioncientifica/king/index.html">
+                                                          <a href="../../dinotemplates/divulgacioncientifica/plantilla3/index.html">
                                                               <img src="img/shop/divul2.jpg" alt="">
                                                           </a>
                                                     </div>
@@ -341,7 +323,7 @@
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla study</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -359,7 +341,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/divulgacioncientifica/education/index.html">
+                                                             <a href="../../dinotemplates/divulgacioncientifica/plantilla3/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -374,7 +356,7 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/divulgacioncientifica/plantilla3/index.html">
+                                                          <a href="../../dinotemplates/divulgacioncientifica/king/index.html">
                                                               <img src="img/shop/divulgacion3.jpg" alt="">
                                                           </a>
                                                     </div>
@@ -382,7 +364,7 @@
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla aqua</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -400,7 +382,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/divulgacioncientifica/divulgacion3/index.html">
+                                                             <a href="../../dinotemplates/divulgacioncientifica/king/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -414,15 +396,15 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/divulgacioncientifica/education/index.html">
-                                                              <img src="img/shop/divulgacion1.jpg" alt="">
+                                                          <a href="../../dinotemplates/divulgacioncientifica/plantilla4/index.html">
+                                                              <img src="img/shop/divulgacio4.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla investigación</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -440,7 +422,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/juega/uno/index.html">
+                                                             <a href="../../dinotemplates/divulgacioncientifica/plantilla4/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -482,16 +464,12 @@
                                             <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
-                                                          <img src="img/shop/juega1.jpg" alt="">
+                                                      <a href="../../dinotemplates/juega/uno/index.html">
+                                                          <img class="adapt" src="img/shop/juega1.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/juega/uno/index.html"><i class="fas fa-eye"></i></a>
-                                                            
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla kids</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -511,16 +489,12 @@
 
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
-                                                          <img src="img/shop/juega2.jpg" alt="">
+                                                      <a href="../../dinotemplates/juega/dos/index.html">
+                                                          <img class="adapt" src="img/shop/juega2.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/juega/dos/index.html"><i class="fas fa-eye"></i></a>
-                                                            
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla learning</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -542,15 +516,12 @@
                                             <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
-                                                          <img src="img/shop/juega3.jpg" alt="">
+                                                      <a href="../../dinotemplates/juega/tres/index.html">
+                                                          <img class="adapt" src="img/shop/juega3.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/juega/tres/index.html"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla world</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -570,15 +541,12 @@
 
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
-                                                          <img src="img/shop/juega1.jpg" alt="">
+                                                      <a href="../../dinotemplates/juega/cuatro/index.html">
+                                                          <img class="adapt" src="img/shop/jueg4.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/juega/uno/index.html"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla familily</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -600,15 +568,12 @@
                                             <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
-                                                          <img src="img/shop/juega2.jpg" alt="">
+                                                      <a href="../../dinotemplates/juega/cinco/index.html">
+                                                          <img class="adapt" src="img/shop/jueg5.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/juega/dos/index.html"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla rabbit</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -628,15 +593,12 @@
                                               
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
-                                                          <img src="img/shop/juega3.jpg" alt="">
+                                                      <a href="../../dinotemplates/juega/seis/index.html">
+                                                          <img src="img/shop/jueg6.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/juega/tres/index.html"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla investigation</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -668,14 +630,14 @@
                                               <div class="product-wrapper">
                                                   <div class="product-img">
                                                       <a href="../../dinotemplates/juega/uno/index.html">
-                                                        <img src="img/shop/juega1.jpg" alt="">
+                                                        <img class="adapt" src="img/shop/juega1.jpg" alt="">
                                                       </a>
                                                   </div>
                                               </div>
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla kids</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -709,14 +671,14 @@
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
                                                           <a href="../../dinotemplates/juega/dos/index.html">
-                                                              <img src="img/shop/juega2.jpg" alt="">
+                                                              <img class="adapt" src="img/shop/juega2.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla learning</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -750,14 +712,14 @@
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
                                                           <a href="../../dinotemplates/juega/tres/index.html">
-                                                              <img src="img/shop/juega3.jpg" alt="">
+                                                              <img class="adapt" src="img/shop/juega3.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla world</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -789,15 +751,15 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/juega/uno/index.html">
-                                                              <img src="img/shop/juega1.jpg" alt="">
+                                                          <a href="../../dinotemplates/juega/cuatro/index.html">
+                                                              <img class="adapt" src="img/shop/jueg4.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla family</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -815,7 +777,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/juega/uno/index.html">
+                                                             <a href="../../dinotemplates/juega/cuatro/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -857,16 +819,12 @@
                                             <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
+                                                      <a href="../../dinotemplates/empresas/empresa1/index.html">
                                                           <img src="img/shop/empresa1.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/empresas/empresa1/index.html"><i class="fas fa-eye"></i></a>
-                                                            
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla business</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -886,16 +844,12 @@
 
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
+                                                      <a href="../../dinotemplates/empresas/empresa2/index.html">
                                                           <img src="img/shop/empresa2.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/empresas/empresa2/index.html"><i class="fas fa-eye"></i></a>
-                                                            
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla searching</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -917,15 +871,12 @@
                                             <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
-                                                          <img src="img/shop/empresa3.jpg" alt="">
+                                                      <a href="../../dinotemplates/empresas/empresa3/index.html">
+                                                          <img src="img/shop/empres3.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/empresas/empresa3/index.html"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla hotels</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -945,15 +896,12 @@
 
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
-                                                          <img src="img/shop/empresa1.jpg" alt="">
+                                                      <a href="../../dinotemplates/empresas/empresa4/index.html">
+                                                          <img src="img/shop/empresa4.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/empresas/empresa1/index.html"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla building</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -975,15 +923,12 @@
                                             <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
-                                                          <img src="img/shop/empresa2.jpg" alt="">
+                                                      <a href="../../dinotemplates/empresas/empresa5/index.html">
+                                                          <img src="img/shop/empresa5.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/empresas/empresa2/index.html"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla food</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -1003,15 +948,12 @@
                                               
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
-                                                          <img src="img/shop/empresa3.jpg" alt="">
+                                                      <a href="../../dinotemplates/empresas/empresa6/index.html">
+                                                          <img src="img/shop/empresa6.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/empresas/empresa3/index.html"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla fruit</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -1050,7 +992,7 @@
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla business</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -1091,7 +1033,7 @@
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla searching</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -1125,14 +1067,14 @@
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
                                                           <a href="../../dinotemplates/empresas/empresa3/index.html">
-                                                              <img src="img/shop/empresa3.jpg" alt="">
+                                                              <img src="img/shop/empres3.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla hotels</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -1164,15 +1106,15 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/empresas/empresa1/index.html">
-                                                              <img src="img/shop/empresa1.jpg" alt="">
+                                                          <a href="../../dinotemplates/empresas/empresa4/index.html">
+                                                              <img src="img/shop/empresa4.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla building</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -1190,7 +1132,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/empresas/empresa1/index.html">
+                                                             <a href="../../dinotemplates/empresas/empresa4/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -1231,16 +1173,12 @@
                                             <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
+                                                      <a href="../../dinotemplates/curri/curriculum1/index.html">
                                                           <img src="img/shop/curri1.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/curri/curriculum1/index.html"><i class="fas fa-eye"></i></a>
-                                                            
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla Clarence</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -1260,16 +1198,12 @@
 
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
+                                                      <a href="../../dinotemplates/curri/curriculum2/index.html">
                                                           <img src="img/shop/curri2.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/curri/curriculum2/index.html"><i class="fas fa-eye"></i></a>
-                                                            
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla Start</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -1291,15 +1225,12 @@
                                             <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
+                                                      <a href="../../dinotemplates/curri/curriculum3/index.html">
                                                           <img src="img/shop/curri3.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/curri/curriculum3/index.html"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla John Dge</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -1319,15 +1250,12 @@
 
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
+                                                      <a href="../../dinotemplates/curri/curriculum4/index.html">
                                                           <img src="img/shop/curri4.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/curri/curriculum4/index.html"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla company</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -1349,15 +1277,12 @@
                                             <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
+                                                      <a href="../../dinotemplates/curri/curriculum5/index.html">
                                                           <img src="img/shop/curri5.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/curri/curriculum5/index.html"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla pink</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -1377,15 +1302,12 @@
                                               
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="#">
+                                                      <a href="../../dinotemplates/curri/curriculum6/index.html">
                                                           <img src="img/shop/curri6.jpg" alt="">
                                                       </a>
-                                                        <div class="product-action">
-                                                            <a href="../../dinotemplates/curri/curriculum6/index.html"><i class="fas fa-eye"></i></a>
-                                                        </div>
                                                     </div>
                                                       <div class="product-content text-center">
-                                                         <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                         <h3><a href="#">Plantilla girl</a></h3>
                                                          <div class="rating">
                                                              <i class="fas fa-star"></i>
                                                              <i class="fas fa-star"></i>
@@ -1424,7 +1346,7 @@
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla clarence</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -1465,7 +1387,7 @@
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla start</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -1506,7 +1428,7 @@
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla john dge</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
@@ -1546,7 +1468,7 @@
                                             </div> 
                                             <div class="col-xl-8">
                                                   <div class="product-content shop-list">
-                                                      <h3><a href="#">Plantilla tecnológica</a></h3>
+                                                      <h3><a href="#">Plantilla company</a></h3>
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quas!</p>
                                                       <div class="rating">
                                                           <i class="fas fa-star"></i>
