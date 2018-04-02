@@ -5,7 +5,7 @@
     <title>DinoApp</title>
 
     <!--Archivos CSS-->
-    <link rel="stylesheet" href="../../static/css/bootstrap.css">
+    <link rel="stylesheet" href="../../static/css/catalogoestilos/bootstrap.css">
 
     <style>
 
@@ -66,21 +66,21 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="../../static/media/images/wall1.jpg" alt="First slide">
+                    <img class="d-block w-100" src="../../static/images/wall1.jpg" alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Crea tu propia Pagina Web</h5>
                         <p>Nosotros te Ayudamos</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="../../static/media/images/wall2.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="../../static/images/wall2.jpg" alt="Second slide">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Elije un Diseno</h5>
                         <p>O danos tus ideas </p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="../../static/media/images/wall3.jpg" alt="Third slide">
+                    <img class="d-block w-100" src="../../static/images/wall3.jpg" alt="Third slide">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Visita nuestro Catalogo</h5>
                         <p>Esta a solo un click de distancia :3</p>
@@ -114,7 +114,7 @@
                 </div>
             </div>
             <div class="col-6">
-                <img class="image" src="../../static/media/images/wall1.jpg" alt="No img" width="100%">
+                <img class="image" src="../../static/images/wall1.jpg" alt="No img" width="100%">
             </div>
         </div>
         <div class="row line">
@@ -122,7 +122,7 @@
                 <h1> Catalogo </h1>
             </div>
             <div class="col-6">
-                <img class="image" src="../../static/media/images/wall2.jpg" alt="No img" width="100%">
+                <img class="image" src="../../static/images/wall2.jpg" alt="No img" width="100%">
             </div>
             <div class="col-6">
                 <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum error est modi placeat quasi
@@ -153,7 +153,7 @@
     <!--Archivos JS-->
     <script src="../../static/javascript/base/jquery-3.3.1.js"> </script>
     <script src="../../static/javascript/base/popper.js"> </script>
-    <script src="../../static/javascript/base/bootstrap.js"> </script>
+    <script src="../../static/javascript/bootstrap.js"> </script>
     <script src="../../static/javascript/base/Chart.js"> </script>
     <script>
         var ctx = document.getElementById("myChart").getContext('2d');

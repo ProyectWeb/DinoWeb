@@ -13,29 +13,22 @@
 
         <!--CSS-->
        
-        <link rel="stylesheet" href="../../../static/css/bootstrap.css">
-        <link rel="stylesheet" href="../../../static/css/catalogoestilos/style.css">
-        <link rel="stylesheet" href="../.../catalogoestilos/css/fontawesome/web-fonts-with-cssfontawesome-all.min.css">
-        <link rel="stylesheet" href="../../../static/css/catalogoestilos/owl.carousel.min.css">
-        <link rel="stylesheet" href="../../../static/css/catalogoestilos/default.css">
-        <link rel="stylesheet" href="../../../static/css/catalogoestilos/nice-select.css">
-        <link rel="stylesheet" href="../../../static/css/catalogoestilos/meanmenu.css">
+        <link rel="stylesheet" href="../../static/css/catalogoestilos/bootstrap.css">
+        <link rel="stylesheet" href="../../static/css/catalogoestilos/style.css">
+        <link rel="stylesheet" href="../../static/css/catalogoestilos/fontawesome/web-fonts-with-css/css/fontawesome.css">
+        <link rel="stylesheet" href="../../static/css/catalogoestilos/owl.carousel.min.css">
+        <link rel="stylesheet" href="../../static/css/catalogoestilos/default.css">
+        <link rel="stylesheet" href="../../static/css/catalogoestilos/nice-select.css">
+        <link rel="stylesheet" href="../../static/css/catalogoestilos/meanmenu.css">
         
-        <link rel="stylesheet" href="../../../static/css/catalogoestilos/responsive.css">
+        <link rel="stylesheet" href="../../static/css/catalogoestilos/responsive.css">
     </head>
     <body>
-       
-
-      
-
-       <?php
-        include('../../Richi/navBar.html');
-      ?>
-
-        
-
+        <?php
+            include('../Richi/navBar.html');
+        ?>
         <!--Imagen principal inicio-->
-       <div class="page-title-area pt-100 pb-100" style="background-image:url(img/shop/p.jpg); ">
+       <div class="page-title-area pt-100 pb-100" style="background-image:url(../../static/images/shop/p.jpg)">
            <div class="container">
                <div class="row">
                    <div class="col-xl-12">
@@ -110,8 +103,8 @@
                                           <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/divulgacioncientifica/education/index.html">
-                                                          <img class="adapt" src="img/shop/divulgacion1.jpg" alt="">
+                                                      <a href="../dinotemplates/divulgacioncientifica/education/index.html">
+                                                          <img class="adapt" src="../../static/images/shop/divulgacion1.jpg" alt="">
                                                       </a>
                                                         
                                                     </div>
@@ -136,8 +129,8 @@
 
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/divulgacioncientifica/plantilla3/index.html">
-                                                          <img src="img/shop/divul2.jpg" alt="">
+                                                      <a href="../dinotemplates/divulgacioncientifica/plantilla3/index.html">
+                                                          <img src="../../static/images/shop/divul2.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -163,8 +156,8 @@
                                           <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/divulgacioncientifica/king/index.html">
-                                                          <img src="img/shop/divulgacion3.jpg" alt="">
+                                                      <a href="../dinotemplates/divulgacioncientifica/king/index.html">
+                                                          <img src="../../static/images/shop/divulgacion3.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -188,8 +181,8 @@
 
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/divulgacioncientifica/plantilla4/index.html">
-                                                          <img src="img/shop/divulgacio4.jpg" alt="">
+                                                      <a href="../dinotemplates/divulgacioncientifica/plantilla4/index.html">
+                                                          <img src="../../static/images/shop/divulgacio4.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -215,8 +208,8 @@
                                           <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/divulgacioncientifica/plantilla5/index.html">
-                                                          <img src="img/shop/divulgacio5.jpg" alt="">
+                                                      <a href="../dinotemplates/divulgacioncientifica/plantilla5/index.html">
+                                                          <img src="../../static/images/shop/divulgacio5.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -240,8 +233,8 @@
                                               
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/divulgacioncientifica/plantilla6/index.html">
-                                                          <img src="img/shop/divulgacio6.jpg" alt="">
+                                                      <a href="../dinotemplates/divulgacioncientifica/plantilla6/index.html">
+                                                          <img src="../../static/images/shop/divulgacio6.jpg" alt="">
                                                     </div>
                                                       <div class="product-content text-center">
                                                          <h3><a href="#">Plantilla plants</a></h3>
@@ -275,8 +268,8 @@
                                            <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                   <div class="product-img">
-                                                      <a href="../../dinotemplates/divulgacioncientifica/education/index.html">
-                                                        <img src="img/shop/divulgacion1.jpg" alt="">
+                                                      <a href="../dinotemplates/divulgacioncientifica/education/index.html">
+                                                        <img src="../../static/images/shop/divulgacion1.jpg" alt="">
                                                       </a>
                                                   </div>
                                               </div>
@@ -301,7 +294,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/divulgacioncientifica/education/index.html">
+                                                             <a href="../dinotemplates/divulgacioncientifica/education/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -316,8 +309,8 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/divulgacioncientifica/plantilla3/index.html">
-                                                              <img src="img/shop/divul2.jpg" alt="">
+                                                          <a href="../dinotemplates/divulgacioncientifica/plantilla3/index.html">
+                                                              <img src="../../static/images/shop/divul2.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
@@ -342,7 +335,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/divulgacioncientifica/plantilla3/index.html">
+                                                             <a href="../dinotemplates/divulgacioncientifica/plantilla3/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -357,8 +350,8 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/divulgacioncientifica/king/index.html">
-                                                              <img src="img/shop/divulgacion3.jpg" alt="">
+                                                          <a href="../dinotemplates/divulgacioncientifica/king/index.html">
+                                                              <img src="../../static/images/shop/divulgacion3.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
@@ -383,7 +376,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/divulgacioncientifica/king/index.html">
+                                                             <a href="../dinotemplates/divulgacioncientifica/king/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -397,8 +390,8 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/divulgacioncientifica/plantilla4/index.html">
-                                                              <img src="img/shop/divulgacio4.jpg" alt="">
+                                                          <a href="../dinotemplates/divulgacioncientifica/plantilla4/index.html">
+                                                              <img src="../../static/images/shop/divulgacio4.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
@@ -423,7 +416,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/divulgacioncientifica/plantilla4/index.html">
+                                                             <a href="../dinotemplates/divulgacioncientifica/plantilla4/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -465,8 +458,8 @@
                                             <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/juega/uno/index.html">
-                                                          <img class="adapt" src="img/shop/juega1.jpg" alt="">
+                                                      <a href="../dinotemplates/juega/uno/index.html">
+                                                          <img class="adapt" src="../../static/images/shop/juega1.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -490,8 +483,8 @@
 
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/juega/dos/index.html">
-                                                          <img class="adapt" src="img/shop/juega2.jpg" alt="">
+                                                      <a href="../dinotemplates/juega/dos/index.html">
+                                                          <img class="adapt" src="../../static/images/shop/juega2.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -517,8 +510,8 @@
                                             <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/juega/tres/index.html">
-                                                          <img class="adapt" src="img/shop/juega3.jpg" alt="">
+                                                      <a href="../dinotemplates/juega/tres/index.html">
+                                                          <img class="adapt" src="../../static/images/shop/juega3.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -542,8 +535,8 @@
 
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/juega/cuatro/index.html">
-                                                          <img class="adapt" src="img/shop/jueg4.jpg" alt="">
+                                                      <a href="../dinotemplates/juega/cuatro/index.html">
+                                                          <img class="adapt" src="../../static/images/shop/jueg4.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -569,8 +562,8 @@
                                             <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/juega/cinco/index.html">
-                                                          <img class="adapt" src="img/shop/jueg5.jpg" alt="">
+                                                      <a href="../dinotemplates/juega/cinco/index.html">
+                                                          <img class="adapt" src="../../static/images/shop/jueg5.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -594,8 +587,8 @@
                                               
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/juega/seis/index.html">
-                                                          <img src="img/shop/jueg6.jpg" alt="">
+                                                      <a href="../dinotemplates/juega/seis/index.html">
+                                                          <img src="../../static/images/shop/jueg6.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -630,8 +623,8 @@
                                            <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                   <div class="product-img">
-                                                      <a href="../../dinotemplates/juega/uno/index.html">
-                                                        <img class="adapt" src="img/shop/juega1.jpg" alt="">
+                                                      <a href="../dinotemplates/juega/uno/index.html">
+                                                        <img class="adapt" src="../../static/images/shop/juega1.jpg" alt="">
                                                       </a>
                                                   </div>
                                               </div>
@@ -656,7 +649,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/juega/uno/index.html">
+                                                             <a href="../dinotemplates/juega/uno/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -671,8 +664,8 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/juega/dos/index.html">
-                                                              <img class="adapt" src="img/shop/juega2.jpg" alt="">
+                                                          <a href="../dinotemplates/juega/dos/index.html">
+                                                              <img class="adapt" src="../../static/images/shop/juega2.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
@@ -697,7 +690,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/juega/dos/index.html">
+                                                             <a href="../dinotemplates/juega/dos/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -712,8 +705,8 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/juega/tres/index.html">
-                                                              <img class="adapt" src="img/shop/juega3.jpg" alt="">
+                                                          <a href="../dinotemplates/juega/tres/index.html">
+                                                              <img class="adapt" src="../../static/images/shop/juega3.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
@@ -738,7 +731,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/juega/tres/index.html">
+                                                             <a href="../dinotemplates/juega/tres/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -752,8 +745,8 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/juega/cuatro/index.html">
-                                                              <img class="adapt" src="img/shop/jueg4.jpg" alt="">
+                                                          <a href="../dinotemplates/juega/cuatro/index.html">
+                                                              <img class="adapt" src="../../static/images/shop/jueg4.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
@@ -778,7 +771,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/juega/cuatro/index.html">
+                                                             <a href="../dinotemplates/juega/cuatro/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -820,8 +813,8 @@
                                             <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/empresas/empresa1/index.html">
-                                                          <img src="img/shop/empresa1.jpg" alt="">
+                                                      <a href="../dinotemplates/empresas/empresa1/index.html">
+                                                          <img src="../../static/images/shop/empresa1.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -845,8 +838,8 @@
 
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/empresas/empresa2/index.html">
-                                                          <img src="img/shop/empresa2.jpg" alt="">
+                                                      <a href="../dinotemplates/empresas/empresa2/index.html">
+                                                          <img src="../../static/images/shop/empresa2.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -872,8 +865,8 @@
                                             <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/empresas/empresa3/index.html">
-                                                          <img src="img/shop/empres3.jpg" alt="">
+                                                      <a href="../dinotemplates/empresas/empresa3/index.html">
+                                                          <img src="../../static/images/shop/empres3.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -897,8 +890,8 @@
 
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/empresas/empresa4/index.html">
-                                                          <img src="img/shop/empresa4.jpg" alt="">
+                                                      <a href="../dinotemplates/empresas/empresa4/index.html">
+                                                          <img src="../../static/images/empresa4.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -924,8 +917,8 @@
                                             <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/empresas/empresa5/index.html">
-                                                          <img src="img/shop/empresa5.jpg" alt="">
+                                                      <a href="../dinotemplates/empresas/empresa5/index.html">
+                                                          <img src="../../static/images/shop/empresa5.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -949,8 +942,8 @@
                                               
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/empresas/empresa6/index.html">
-                                                          <img src="img/shop/empresa6.jpg" alt="">
+                                                      <a href="../dinotemplates/empresas/empresa6/index.html">
+                                                          <img src="../../static/images/shop/empresa6.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -985,8 +978,8 @@
                                            <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                   <div class="product-img">
-                                                      <a href="../../dinotemplates/empresas/empresa1/index.html">
-                                                        <img src="img/shop/empresa1.jpg" alt="">
+                                                      <a href="../dinotemplates/empresas/empresa1/index.html">
+                                                        <img src="../../static/images/shop/empresa1.jpg" alt="">
                                                       </a>
                                                   </div>
                                               </div>
@@ -1011,7 +1004,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/empresas/empresa1/index.html">
+                                                             <a href="../dinotemplates/empresas/empresa1/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -1026,8 +1019,8 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/empresas/empresa2/index.html">
-                                                              <img src="img/shop/empresa2.jpg" alt="">
+                                                          <a href="../dinotemplates/empresas/empresa2/index.html">
+                                                              <img src="../../static/images/shop/empresa2.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
@@ -1052,7 +1045,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/empresas/empresa2/index.html">
+                                                             <a href="../dinotemplates/empresas/empresa2/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -1067,8 +1060,8 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/empresas/empresa3/index.html">
-                                                              <img src="img/shop/empres3.jpg" alt="">
+                                                          <a href="../dinotemplates/empresas/empresa3/index.html">
+                                                              <img src="../../static/images/shop/empres3.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
@@ -1093,7 +1086,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/empresas/empresa3/index.html">
+                                                             <a href="../dinotemplates/empresas/empresa3/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -1107,8 +1100,8 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/empresas/empresa4/index.html">
-                                                              <img src="img/shop/empresa4.jpg" alt="">
+                                                          <a href="../dinotemplates/empresas/empresa4/index.html">
+                                                              <img src="../../static/images/shop/empresa4.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
@@ -1133,7 +1126,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/empresas/empresa4/index.html">
+                                                             <a href="../dinotemplates/empresas/empresa4/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -1174,8 +1167,8 @@
                                             <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/curri/curriculum1/index.html">
-                                                          <img src="img/shop/curri1.jpg" alt="">
+                                                      <a href="../dinotemplates/curri/curriculum1/index.html">
+                                                          <img src="../../static/images/shop/curri1.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -1199,8 +1192,8 @@
 
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/curri/curriculum2/index.html">
-                                                          <img src="img/shop/curri2.jpg" alt="">
+                                                      <a href="../dinotemplates/curri/curriculum2/index.html">
+                                                          <img src="../../static/images/shop/curri2.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -1226,8 +1219,8 @@
                                             <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/curri/curriculum3/index.html">
-                                                          <img src="img/shop/curri3.jpg" alt="">
+                                                      <a href="../dinotemplates/curri/curriculum3/index.html">
+                                                          <img src="../../static/images/shop/curri3.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -1251,8 +1244,8 @@
 
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/curri/curriculum4/index.html">
-                                                          <img src="img/shop/curri4.jpg" alt="">
+                                                      <a href="../dinotemplates/curri/curriculum4/index.html">
+                                                          <img src="../../static/images/shop/curri4.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -1279,7 +1272,7 @@
                                               <div class="product-wrapper">
                                                     <div class="product-img">
                                                       <a href="../../dinotemplates/curri/curriculum5/index.html">
-                                                          <img src="img/shop/curri5.jpg" alt="">
+                                                          <img src="../../static/images/shop/curri5.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -1303,8 +1296,8 @@
                                               
                                               <div class="product-wrapper">
                                                     <div class="product-img">
-                                                      <a href="../../dinotemplates/curri/curriculum6/index.html">
-                                                          <img src="img/shop/curri6.jpg" alt="">
+                                                      <a href="../dinotemplates/curri/curriculum6/index.html">
+                                                          <img src="../../static/images/shop/curri6.jpg" alt="">
                                                       </a>
                                                     </div>
                                                       <div class="product-content text-center">
@@ -1339,8 +1332,8 @@
                                            <div class="col-xl-4">
                                               <div class="product-wrapper">
                                                   <div class="product-img">
-                                                      <a href="../../dinotemplates/curri/curriculum1/index.html">
-                                                        <img src="img/shop/curri1.jpg" alt="">
+                                                      <a href="../dinotemplates/curri/curriculum1/index.html">
+                                                        <img src="../../static/images/shop/curri1.jpg" alt="">
                                                       </a>
                                                   </div>
                                               </div>
@@ -1365,7 +1358,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/curri/curriculum1/index.html">
+                                                             <a href="../dinotemplates/curri/curriculum1/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -1380,8 +1373,8 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/curri/curriculum2/index.html">
-                                                              <img src="img/shop/curri2.jpg" alt="">
+                                                          <a href="../dinotemplates/curri/curriculum2/index.html">
+                                                              <img src="../../static/images/shop/curri2.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
@@ -1406,7 +1399,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/curri/curriculum2/index.html">
+                                                             <a href="../dinotemplates/curri/curriculum2/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -1421,8 +1414,8 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/curri/curriculum3/index.html">
-                                                              <img src="img/shop/curri3.jpg" alt="">
+                                                          <a href="../dinotemplates/curri/curriculum3/index.html">
+                                                              <img src="../../static/images/shop/curri3.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
@@ -1447,7 +1440,7 @@
                                                              <a href="#">Hacer pedido</a>
                                                          </div>
                                                          <div class="product-action">
-                                                             <a href="../../dinotemplates/curri/curriculum3/index.html">
+                                                             <a href="../dinotemplates/curri/curriculum3/index.html">
                                                                  <i class="fas fa-eye"></i>
                                                              </a>
                                                          </div>
@@ -1461,8 +1454,8 @@
                                            <div class="col-xl-4">
                                                   <div class="product-wrapper">
                                                     <div class="product-img">
-                                                          <a href="../../dinotemplates/curri/curriculum4/index.html">
-                                                              <img src="img/shop/curri4.jpg" alt="">
+                                                          <a href="../dinotemplates/curri/curriculum4/index.html">
+                                                              <img src="../../static/images/shop/curri4.jpg" alt="">
                                                           </a>
                                                     </div>
                                                   </div>
@@ -1541,14 +1534,14 @@
 
 
         <!--JS-->
-        <script src="../../../static/javascript/catalogojavascript/modernizr-3.5.0.min.js"></script>
-        <script src="../../../static/javascript/catalogojavascript/jquery-3.2.1.min.js"></script>
-        <script src="../../../static/javascript/base/popper.js"></script>
-        <script src="../../../static/javascript/base/bootstrap.js"></script>
-        <script src="../../../static/javascript/catalogojavascript/owl.carousel.min.js"></script>
-        <script src="../../../static/javascript/catalogojavascript/jquery.meanmenu.min.js"></script>
-        <script src="../../../static/javascript/catalogojavascript/plugins.js"></script>
-        <script src="../../../static/javascript/catalogojavascript/main.js"></script>
+        <script src="../../static/javascript/catalogojavascript/modernizr-3.5.0.min.js"></script>
+        <script src="../../static/javascript/catalogojavascript/jquery-3.2.1.min.js"></script>
+        <script src="../../static/javascript/base/popper.js"></script>
+        <script src="../../static/javascript/base/bootstrap.js"></script>
+        <script src="../../static/javascript/catalogojavascript/owl.carousel.min.js"></script>
+        <script src="../../static/javascript/catalogojavascript/jquery.meanmenu.min.js"></script>
+        <script src="../../static/javascript/catalogojavascript/plugins.js"></script>
+        <script src="../../static/javascript/catalogojavascript/main.js"></script>
 
         
     </body>

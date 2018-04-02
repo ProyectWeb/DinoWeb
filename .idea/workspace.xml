@@ -2,7 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78bae585-15cf-4302-8bcf-33691b204c38" name="Default" comment="Add template for login and php connection to MYSQL">
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/Laura/shop.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/static/css/font.css" afterPath="$PROJECT_DIR$/static/css/font.css" />
+      <change beforePath="$PROJECT_DIR$/static/fontss/untitled-font-1.eot" afterPath="$PROJECT_DIR$/static/fonts/untitled-font-1.eot" />
+      <change beforePath="$PROJECT_DIR$/static/fontss/untitled-font-1.svg" afterPath="$PROJECT_DIR$/static/fonts/untitled-font-1.svg" />
+      <change beforePath="$PROJECT_DIR$/static/fontss/untitled-font-1.ttf" afterPath="$PROJECT_DIR$/static/fonts/untitled-font-1.ttf" />
+      <change beforePath="$PROJECT_DIR$/static/fontss/untitled-font-1.woff" afterPath="$PROJECT_DIR$/static/fonts/untitled-font-1.woff" />
+      <change beforePath="$PROJECT_DIR$/static/img/Dinoweb.png" afterPath="$PROJECT_DIR$/static/images/Dinoweb.png" />
+      <change beforePath="$PROJECT_DIR$/static/img/Educacion.jpg" afterPath="$PROJECT_DIR$/static/images/Educacion.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/img/app.jpg" afterPath="$PROJECT_DIR$/static/images/app.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/img/app2.jpg" afterPath="$PROJECT_DIR$/static/images/app2.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/img/jugar.jpg" afterPath="$PROJECT_DIR$/static/images/jugar.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/img/mision.png" afterPath="$PROJECT_DIR$/static/images/mision.png" />
+      <change beforePath="$PROJECT_DIR$/static/img/sucursal.jpg" afterPath="$PROJECT_DIR$/static/images/sucursal.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/img/trabajo1.png" afterPath="$PROJECT_DIR$/static/images/trabajo1.png" />
+      <change beforePath="$PROJECT_DIR$/static/img/valores.png" afterPath="$PROJECT_DIR$/static/images/valores.png" />
+      <change beforePath="$PROJECT_DIR$/static/img/vision.png" afterPath="$PROJECT_DIR$/static/images/vision.png" />
+      <change beforePath="$PROJECT_DIR$/static/media/images/banner-login.jpg" afterPath="$PROJECT_DIR$/static/images/banner-login.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/media/images/paypal.png" afterPath="$PROJECT_DIR$/static/images/paypal.png" />
+      <change beforePath="$PROJECT_DIR$/static/media/images/visa.png" afterPath="$PROJECT_DIR$/static/images/visa.png" />
+      <change beforePath="$PROJECT_DIR$/static/media/images/wall1.jpg" afterPath="$PROJECT_DIR$/static/images/wall1.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/media/images/wall2.jpg" afterPath="$PROJECT_DIR$/static/images/wall2.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/media/images/wall3.jpg" afterPath="$PROJECT_DIR$/static/images/wall3.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Crud/crud.php" afterPath="$PROJECT_DIR$/templates/Crud/crud.php" />
+      <change beforePath="$PROJECT_DIR$/templates/Crud/modif_usuario.php" afterPath="$PROJECT_DIR$/templates/Crud/modif_usuario.php" />
+      <change beforePath="$PROJECT_DIR$/templates/Crud/nuevo_usuario.php" afterPath="$PROJECT_DIR$/templates/Crud/nuevo_usuario.php" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/dino.png" afterPath="$PROJECT_DIR$/static/images/dino.png" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/curri1.jpg" afterPath="$PROJECT_DIR$/static/images/shop/curri1.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/curri2.jpg" afterPath="$PROJECT_DIR$/static/images/shop/curri2.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/curri3.jpg" afterPath="$PROJECT_DIR$/static/images/shop/curri3.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/curri4.jpg" afterPath="$PROJECT_DIR$/static/images/shop/curri4.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/curri5.jpg" afterPath="$PROJECT_DIR$/static/images/shop/curri5.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/curri6.jpg" afterPath="$PROJECT_DIR$/static/images/shop/curri6.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/divul2.jpg" afterPath="$PROJECT_DIR$/static/images/shop/divul2.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/divulgacio4.jpg" afterPath="$PROJECT_DIR$/static/images/shop/divulgacio4.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/divulgacio5.jpg" afterPath="$PROJECT_DIR$/static/images/shop/divulgacio5.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/divulgacio6.jpg" afterPath="$PROJECT_DIR$/static/images/shop/divulgacio6.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/divulgacion1.jpg" afterPath="$PROJECT_DIR$/static/images/shop/divulgacion1.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/divulgacion3.jpg" afterPath="$PROJECT_DIR$/static/images/shop/divulgacion3.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/empres3.jpg" afterPath="$PROJECT_DIR$/static/images/shop/empres3.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/empresa1.jpg" afterPath="$PROJECT_DIR$/static/images/shop/empresa1.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/empresa2.jpg" afterPath="$PROJECT_DIR$/static/images/shop/empresa2.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/empresa3.jpg" afterPath="$PROJECT_DIR$/static/images/shop/empresa3.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/empresa4.jpg" afterPath="$PROJECT_DIR$/static/images/shop/empresa4.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/empresa5.jpg" afterPath="$PROJECT_DIR$/static/images/shop/empresa5.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/empresa6.jpg" afterPath="$PROJECT_DIR$/static/images/shop/empresa6.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/jueg4.jpg" afterPath="$PROJECT_DIR$/static/images/shop/jueg4.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/jueg5.jpg" afterPath="$PROJECT_DIR$/static/images/shop/jueg5.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/jueg6.jpg" afterPath="$PROJECT_DIR$/static/images/shop/jueg6.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/juega1.jpg" afterPath="$PROJECT_DIR$/static/images/shop/juega1.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/juega2.jpg" afterPath="$PROJECT_DIR$/static/images/shop/juega2.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/juega3.jpg" afterPath="$PROJECT_DIR$/static/images/shop/juega3.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/juega6.jpg" afterPath="$PROJECT_DIR$/static/images/shop/juega6.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/p.jpg" afterPath="$PROJECT_DIR$/static/images/shop/p.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/principal.jpg" afterPath="$PROJECT_DIR$/static/images/shop/principal.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Richi/index.php" afterPath="$PROJECT_DIR$/templates/Richi/index.php" />
+      <change beforePath="$PROJECT_DIR$/templates/Richi/navBar.html" afterPath="$PROJECT_DIR$/templates/Richi/navBar.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,35 +82,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Richi/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="82" column="27" lean-forward="false" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-              <folding>
-                <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-                <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Richi/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2797">
-              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Richi/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="221">
+              <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="56" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -63,8 +96,18 @@
       <file leaf-file-name="navBar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Richi/navBar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state relative-caret-position="136">
+              <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shop.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/Laura/shop.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="1453" column="65" lean-forward="true" selection-start-line="1453" selection-start-column="65" selection-end-line="1453" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -86,6 +129,13 @@
       <find>inputEmail</find>
       <find>navbar</find>
       <find>200px</find>
+      <find>php</find>
+      <find>empresa</find>
+      <find>img/shop</find>
+      <find>img/shop/</find>
+      <find>curri1</find>
+      <find>curri2</find>
+      <find>curri4</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,9 +152,10 @@
         <option value="$PROJECT_DIR$/templates/Richi/login.php" />
         <option value="$PROJECT_DIR$/script_for_database.txt" />
         <option value="$PROJECT_DIR$/templates/Richi/index.html" />
-        <option value="$PROJECT_DIR$/templates/Richi/navBar.html" />
-        <option value="$PROJECT_DIR$/templates/Richi/index.php" />
         <option value="$PROJECT_DIR$/templates/Richi/footer.html" />
+        <option value="$PROJECT_DIR$/templates/Richi/index.php" />
+        <option value="$PROJECT_DIR$/templates/Richi/navBar.html" />
+        <option value="$PROJECT_DIR$/templates/Laura/shop.php" />
       </list>
     </option>
   </component>
@@ -118,10 +169,10 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -141,8 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,55 +207,32 @@
             <path>
               <item name="DinoWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="DinoWeb" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="javascript" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DinoWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DinoWeb" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="javascript" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DinoWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DinoWeb" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DinoWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DinoWeb" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DinoWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DinoWeb" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DinoWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DinoWeb" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Richi" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\drdr_\Documents\Github\PHP\DinoWeb\templates\Laura" />
+      <recent name="C:\Users\drdr_\Documents\Github\PHP\DinoWeb\static\images" />
+      <recent name="C:\Users\drdr_\Documents\Github\PHP\DinoWeb\static" />
+      <recent name="C:\Users\drdr_\Documents\Github\PHP\DinoWeb\static\media\images" />
+      <recent name="C:\Users\drdr_\Documents\Github\PHP\DinoWeb\static\fonts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Rich\Documents\GitHub\PHPStorm\DinoWeb\static\javascript\base" />
       <recent name="C:\Users\Rich\Documents\GitHub\PHPStorm\DinoWeb\static\media\images" />
@@ -224,20 +250,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.php">
+  <component name="RunManager" selected="JavaScript Debug.shop.php">
     <configuration name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DinoWeb/templates/Richi/index.php" />
     <configuration name="login.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DinoWeb/templates/Richi/login.php" />
     <configuration name="navBar.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DinoWeb/templates/Richi/navBar.html" />
-    <list size="3">
+    <configuration name="shop.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DinoWeb/templates/Laura/shop.php" />
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.login.php" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.navBar.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.shop.php" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.navBar.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.login.php" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.shop.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.navBar.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.login.php" />
       </list>
     </recent_temporary>
   </component>
@@ -261,17 +290,17 @@
       <workItem from="1521666048374" duration="2133000" />
       <workItem from="1521790261577" duration="731000" />
       <workItem from="1522210446848" duration="94000" />
+      <workItem from="1522701212878" duration="3789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28100000" />
+    <option name="totallyTimeSpent" value="31914000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19803064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18683812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -282,7 +311,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39291736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -308,32 +337,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/Richi/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Richi/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Richi/index.php" />
     <entry file="file://$PROJECT_DIR$/templates/Richi/footer.html" />
     <entry file="file://$PROJECT_DIR$/templates/Richi/navBar.html" />
-    <entry file="file://$PROJECT_DIR$/static/media/images/banner-login.jpg">
+    <entry file="file://$PROJECT_DIR$/static/images/banner-login.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -342,10 +348,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -353,10 +356,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -365,10 +365,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -376,10 +373,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -411,10 +405,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -422,10 +413,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -433,10 +421,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -444,17 +429,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Richi/index.php" />
     <entry file="file://$PROJECT_DIR$/templates/Richi/footer.html" />
     <entry file="file://$PROJECT_DIR$/templates/Richi/navBar.html" />
-    <entry file="file://$PROJECT_DIR$/static/media/images/banner-login.jpg">
+    <entry file="file://$PROJECT_DIR$/static/images/banner-login.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -463,10 +445,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -474,10 +453,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -486,10 +462,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -497,10 +470,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -536,17 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="82" column="27" lean-forward="false" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-          <folding>
-            <marker date="1522210119467" expanded="true" signature="633:683" ph="select corre... usuario" />
-            <marker date="1522210119467" expanded="true" signature="857:910" ph="select passw... usuario" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Richi/navBar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -555,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,14 +521,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/catalogoestilos/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Richi/navBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Richi/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2797">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="221">
+          <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="56" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Laura/shop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="1453" column="65" lean-forward="true" selection-start-line="1453" selection-start-column="65" selection-end-line="1453" selection-end-column="65" />
           <folding />
         </state>
       </provider>

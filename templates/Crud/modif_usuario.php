@@ -45,7 +45,7 @@
 <div class="todo">
   
   <div id="cabecera">
-  	<img src="../../static/images/swirl.png" width="1188" id="img1">
+  	<img src="../../static/img/swirl.png" width="1188" id="img1">
   </div>
   
   <!--Se declararan los label para hacer cuadros de texto en donde se mostrara la informacion-->
@@ -100,7 +100,7 @@
   </div>
   
 	<div id="footer">
-  		<img src="../../static/images/swirl2.png" id="img2">
+  		<img src="../../static/img/swirl2.png" id="img2">
   	</div>
 
 </div>
