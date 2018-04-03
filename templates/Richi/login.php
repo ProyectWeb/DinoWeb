@@ -81,7 +81,7 @@
 <div class="container">
     <div class="row login">
         <div class="col-6">
-            <img class="image" src="../../static/media/images/banner-login.jpg" alt="No img">
+            <img class="image" src="../../static/images/banner-login.jpg" alt="No img">
         </div>
         <div class="data col-6">
             <h1>Inicia Sesion</h1>

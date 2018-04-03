@@ -19,7 +19,7 @@
 <div class="todo">
   
   <div id="cabecera">
-    <img src="../../static/img/swirl.png" width="1188" id="img1">
+    <img src="../../static/images/swirl.png" width="1188" id="img1">
   </div>
   
 
@@ -69,7 +69,7 @@
   </div>
   
 	<div id="footer">
-      <img src="../../static/img/swirl2.png" id="img2">
+      <img src="../../static/images/swirl2.png" id="img2">
   	</div>
 
 </div>
