@@ -6,52 +6,13 @@
 
     <!--Archivos CSS-->
     <link rel="stylesheet" href="../../static/css/catalogoestilos/bootstrap.css">
-
-    <style>
-
-        .carousel .carousel-item{
-            height: 500px;
-        }
-
-        img{
-            opacity: .7;
-        }
-
-        .item img{
-            position: absolute;
-            top: 0;
-            left: 0;
-            max-height: 500px;
-        }
-
-        .carousel-caption{
-            color: black;
-        }
-
-        .footer{
-            position: absolute;
-            margin-bottom: 0px;
-            background: #343A40;
-            color: white;
-            margin-top: 30px;
-            padding-top: 10px;
-        }
-
-        .image{
-            display: block;
-            margin: auto;
-        }
-
-        .line{
-            padding: 20px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="../../static/css/index.css">
+    <link rel="stylesheet" href="../../static/css/main.css">
 
 </head>
 <body>
 
-    <!-- Esta es la Nav Bar -->
+    <!-- Nav Bar -->
     <?php
         include('navBar.html');
     ?>
@@ -114,7 +75,7 @@
                 </div>
             </div>
             <div class="col-6">
-                <img class="image" src="../../static/images/wall1.jpg" alt="No img" width="100%">
+                <img class="image" src="../../static/images/wall1.jpg" alt="No img" width="50%">
             </div>
         </div>
         <div class="row line">
@@ -122,7 +83,7 @@
                 <h1> Catalogo </h1>
             </div>
             <div class="col-6">
-                <img class="image" src="../../static/images/wall2.jpg" alt="No img" width="100%">
+                <img class="image" src="../../static/images/wall2.jpg" alt="No img" width="50%">
             </div>
             <div class="col-6">
                 <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum error est modi placeat quasi

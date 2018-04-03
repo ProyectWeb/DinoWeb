@@ -7,7 +7,8 @@
 <style type="text/css">
 @import url("../../static/css/mycss.css");
 </style>
-<link href="../../static/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="../../static/css/catalogoestilos/bootstrap.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../../static/css/main.css">
 <!-- HTML5 shim y Respond.js para compatibilidad con IE8 de elementos HTML5 y consultas de medios -->
 <!-- ADVERTENCIA: Respond.js no funciona si ves la página a través de un archivo: // -->
 <!--[if lt IE 9]>
@@ -16,10 +17,13 @@
 <![endif]-->
 </head>
 <body>
+<?php
+include('../Richi/navBar.html');
+?>
 <div class="todo">
   
   <div id="cabecera">
-    <img src="../../static/images/swirl.png" width="1188" id="img1">
+    <img src="../../static/images/swirl.png" height="200px" width="100%">
   </div>
   
 
@@ -39,7 +43,7 @@
         <!--Se crea un boton el cual sera redirigido a otro archivo php para realizar la funcion de crear un nuevo usuario-->
   			<th> <a href="nuevo_usuario.php"> <button type="button" class="btn btn-info">Nuevo</button> </a> </th>
   		</thead>
-  		
+
   		
   		<?php
       /*Se llama a la base de datos para que muestre los registros de la tabla usuarios*/
@@ -69,8 +73,11 @@
   </div>
   
 	<div id="footer">
-      <img src="../../static/images/swirl2.png" id="img2">
+      <img src="../../static/images/swirl2.png" height="200px" width="100%">
   	</div>
+    <?php
+        include('../Richi/footer.html');
+    ?>
 
 </div>
 
