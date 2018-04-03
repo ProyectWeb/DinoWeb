@@ -2,61 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78bae585-15cf-4302-8bcf-33691b204c38" name="Default" comment="Add template for login and php connection to MYSQL">
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/Laura/shop.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/static/css/font.css" afterPath="$PROJECT_DIR$/static/css/font.css" />
-      <change beforePath="$PROJECT_DIR$/static/fontss/untitled-font-1.eot" afterPath="$PROJECT_DIR$/static/fonts/untitled-font-1.eot" />
-      <change beforePath="$PROJECT_DIR$/static/fontss/untitled-font-1.svg" afterPath="$PROJECT_DIR$/static/fonts/untitled-font-1.svg" />
-      <change beforePath="$PROJECT_DIR$/static/fontss/untitled-font-1.ttf" afterPath="$PROJECT_DIR$/static/fonts/untitled-font-1.ttf" />
-      <change beforePath="$PROJECT_DIR$/static/fontss/untitled-font-1.woff" afterPath="$PROJECT_DIR$/static/fonts/untitled-font-1.woff" />
-      <change beforePath="$PROJECT_DIR$/static/img/Dinoweb.png" afterPath="$PROJECT_DIR$/static/images/Dinoweb.png" />
-      <change beforePath="$PROJECT_DIR$/static/img/Educacion.jpg" afterPath="$PROJECT_DIR$/static/images/Educacion.jpg" />
-      <change beforePath="$PROJECT_DIR$/static/img/app.jpg" afterPath="$PROJECT_DIR$/static/images/app.jpg" />
-      <change beforePath="$PROJECT_DIR$/static/img/app2.jpg" afterPath="$PROJECT_DIR$/static/images/app2.jpg" />
-      <change beforePath="$PROJECT_DIR$/static/img/jugar.jpg" afterPath="$PROJECT_DIR$/static/images/jugar.jpg" />
-      <change beforePath="$PROJECT_DIR$/static/img/mision.png" afterPath="$PROJECT_DIR$/static/images/mision.png" />
-      <change beforePath="$PROJECT_DIR$/static/img/sucursal.jpg" afterPath="$PROJECT_DIR$/static/images/sucursal.jpg" />
-      <change beforePath="$PROJECT_DIR$/static/img/trabajo1.png" afterPath="$PROJECT_DIR$/static/images/trabajo1.png" />
-      <change beforePath="$PROJECT_DIR$/static/img/valores.png" afterPath="$PROJECT_DIR$/static/images/valores.png" />
-      <change beforePath="$PROJECT_DIR$/static/img/vision.png" afterPath="$PROJECT_DIR$/static/images/vision.png" />
-      <change beforePath="$PROJECT_DIR$/static/media/images/banner-login.jpg" afterPath="$PROJECT_DIR$/static/images/banner-login.jpg" />
-      <change beforePath="$PROJECT_DIR$/static/media/images/paypal.png" afterPath="$PROJECT_DIR$/static/images/paypal.png" />
-      <change beforePath="$PROJECT_DIR$/static/media/images/visa.png" afterPath="$PROJECT_DIR$/static/images/visa.png" />
-      <change beforePath="$PROJECT_DIR$/static/media/images/wall1.jpg" afterPath="$PROJECT_DIR$/static/images/wall1.jpg" />
-      <change beforePath="$PROJECT_DIR$/static/media/images/wall2.jpg" afterPath="$PROJECT_DIR$/static/images/wall2.jpg" />
-      <change beforePath="$PROJECT_DIR$/static/media/images/wall3.jpg" afterPath="$PROJECT_DIR$/static/images/wall3.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Crud/crud.php" afterPath="$PROJECT_DIR$/templates/Crud/crud.php" />
-      <change beforePath="$PROJECT_DIR$/templates/Crud/modif_usuario.php" afterPath="$PROJECT_DIR$/templates/Crud/modif_usuario.php" />
-      <change beforePath="$PROJECT_DIR$/templates/Crud/nuevo_usuario.php" afterPath="$PROJECT_DIR$/templates/Crud/nuevo_usuario.php" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/dino.png" afterPath="$PROJECT_DIR$/static/images/dino.png" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/curri1.jpg" afterPath="$PROJECT_DIR$/static/images/shop/curri1.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/curri2.jpg" afterPath="$PROJECT_DIR$/static/images/shop/curri2.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/curri3.jpg" afterPath="$PROJECT_DIR$/static/images/shop/curri3.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/curri4.jpg" afterPath="$PROJECT_DIR$/static/images/shop/curri4.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/curri5.jpg" afterPath="$PROJECT_DIR$/static/images/shop/curri5.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/curri6.jpg" afterPath="$PROJECT_DIR$/static/images/shop/curri6.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/divul2.jpg" afterPath="$PROJECT_DIR$/static/images/shop/divul2.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/divulgacio4.jpg" afterPath="$PROJECT_DIR$/static/images/shop/divulgacio4.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/divulgacio5.jpg" afterPath="$PROJECT_DIR$/static/images/shop/divulgacio5.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/divulgacio6.jpg" afterPath="$PROJECT_DIR$/static/images/shop/divulgacio6.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/divulgacion1.jpg" afterPath="$PROJECT_DIR$/static/images/shop/divulgacion1.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/divulgacion3.jpg" afterPath="$PROJECT_DIR$/static/images/shop/divulgacion3.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/empres3.jpg" afterPath="$PROJECT_DIR$/static/images/shop/empres3.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/empresa1.jpg" afterPath="$PROJECT_DIR$/static/images/shop/empresa1.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/empresa2.jpg" afterPath="$PROJECT_DIR$/static/images/shop/empresa2.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/empresa3.jpg" afterPath="$PROJECT_DIR$/static/images/shop/empresa3.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/empresa4.jpg" afterPath="$PROJECT_DIR$/static/images/shop/empresa4.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/empresa5.jpg" afterPath="$PROJECT_DIR$/static/images/shop/empresa5.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/empresa6.jpg" afterPath="$PROJECT_DIR$/static/images/shop/empresa6.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/jueg4.jpg" afterPath="$PROJECT_DIR$/static/images/shop/jueg4.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/jueg5.jpg" afterPath="$PROJECT_DIR$/static/images/shop/jueg5.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/jueg6.jpg" afterPath="$PROJECT_DIR$/static/images/shop/jueg6.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/juega1.jpg" afterPath="$PROJECT_DIR$/static/images/shop/juega1.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/juega2.jpg" afterPath="$PROJECT_DIR$/static/images/shop/juega2.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/juega3.jpg" afterPath="$PROJECT_DIR$/static/images/shop/juega3.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/juega6.jpg" afterPath="$PROJECT_DIR$/static/images/shop/juega6.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/p.jpg" afterPath="$PROJECT_DIR$/static/images/shop/p.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/Laura/pack/img/shop/principal.jpg" afterPath="$PROJECT_DIR$/static/images/shop/principal.jpg" />
+      <change beforePath="$PROJECT_DIR$/templates/Adrian/quienessomos.html" afterPath="$PROJECT_DIR$/templates/Adrian/quienessomos.php" />
+      <change beforePath="$PROJECT_DIR$/templates/Denisse/Pago.html" afterPath="$PROJECT_DIR$/templates/Denisse/Pago.html" />
+      <change beforePath="$PROJECT_DIR$/templates/Denisse/confirmacionpedido.html" afterPath="$PROJECT_DIR$/templates/Denisse/confirmacionpedido.php" />
       <change beforePath="$PROJECT_DIR$/templates/Richi/index.php" afterPath="$PROJECT_DIR$/templates/Richi/index.php" />
       <change beforePath="$PROJECT_DIR$/templates/Richi/navBar.html" afterPath="$PROJECT_DIR$/templates/Richi/navBar.html" />
     </list>
@@ -82,12 +31,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Richi/index.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="shop.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Laura/shop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="56" selection-end-column="6" />
+            <state relative-caret-position="133">
+              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -96,18 +45,38 @@
       <file leaf-file-name="navBar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Richi/navBar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="153">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shop.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/Laura/shop.php">
+      <file leaf-file-name="confirmacionpedido.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/Denisse/confirmacionpedido.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="1453" column="65" lean-forward="true" selection-start-line="1453" selection-start-column="65" selection-end-line="1453" selection-end-column="65" />
+            <state relative-caret-position="194">
+              <caret line="135" column="34" lean-forward="true" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quienessomos.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Adrian/quienessomos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="15" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Richi/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="155" column="46" lean-forward="false" selection-start-line="155" selection-start-column="46" selection-end-line="155" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -136,6 +105,9 @@
       <find>curri1</find>
       <find>curri2</find>
       <find>curri4</find>
+      <find>mision</find>
+      <find>home/</find>
+      <find>empresa4</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,9 +125,12 @@
         <option value="$PROJECT_DIR$/script_for_database.txt" />
         <option value="$PROJECT_DIR$/templates/Richi/index.html" />
         <option value="$PROJECT_DIR$/templates/Richi/footer.html" />
-        <option value="$PROJECT_DIR$/templates/Richi/index.php" />
-        <option value="$PROJECT_DIR$/templates/Richi/navBar.html" />
         <option value="$PROJECT_DIR$/templates/Laura/shop.php" />
+        <option value="$PROJECT_DIR$/templates/Adrian/quienessomos.html" />
+        <option value="$PROJECT_DIR$/templates/Adrian/quienessomos.php" />
+        <option value="$PROJECT_DIR$/templates/Richi/index.php" />
+        <option value="$PROJECT_DIR$/templates/Denisse/confirmacionpedido.php" />
+        <option value="$PROJECT_DIR$/templates/Richi/navBar.html" />
       </list>
     </option>
   </component>
@@ -171,11 +146,8 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+    <option name="width" value="1150" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -207,14 +179,26 @@
             <path>
               <item name="DinoWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="DinoWeb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="DinoWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DinoWeb" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="DinoWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DinoWeb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adrian" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,12 +279,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31914000" />
+    <option name="totallyTimeSpent" value="36104000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18683812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13326226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -309,17 +294,28 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3325893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39291736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2961326" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18683812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39291736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,18 +333,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/Richi/footer.html" />
-    <entry file="file://$PROJECT_DIR$/templates/Richi/navBar.html" />
-    <entry file="file://$PROJECT_DIR$/static/images/banner-login.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Richi/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -356,7 +344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -365,7 +352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -373,7 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -405,7 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -413,7 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -421,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -429,23 +411,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Richi/index.php" />
     <entry file="file://$PROJECT_DIR$/templates/Richi/footer.html" />
     <entry file="file://$PROJECT_DIR$/templates/Richi/navBar.html" />
-    <entry file="file://$PROJECT_DIR$/static/images/banner-login.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/banner-login.jpg" />
     <entry file="file://$PROJECT_DIR$/templates/Richi/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -453,7 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -462,7 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -470,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -506,7 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="82" column="27" lean-forward="false" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -528,14 +500,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Laura/shop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Richi/navBar.html">
+    <entry file="file://$PROJECT_DIR$/templates/Richi/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        <state relative-caret-position="561">
+          <caret line="155" column="46" lean-forward="false" selection-start-line="155" selection-start-column="46" selection-end-line="155" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Adrian/quienessomos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="15" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -543,23 +530,31 @@
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Richi/index.php">
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="56" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Laura/shop.php">
+    <entry file="file://$PROJECT_DIR$/templates/Richi/navBar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="1453" column="65" lean-forward="true" selection-start-line="1453" selection-start-column="65" selection-end-line="1453" selection-end-column="65" />
+        <state relative-caret-position="153">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Denisse/confirmacionpedido.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="135" column="34" lean-forward="true" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
           <folding />
         </state>
       </provider>

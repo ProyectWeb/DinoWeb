@@ -5,7 +5,7 @@
   <title>Quienes somos</title>
  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="../../static/css/bootstrap.css">
+  <link rel="stylesheet" href="../../static/css/catalogoestilos/bootstrap.css">
   <link rel="stylesheet" href="../../static/css/estilos.css">
    <link rel="stylesheet" href="../../static/css/fontss.css">
 
@@ -107,7 +107,9 @@ Calidad: búsqueda de la excelencia
 <footer class="footer">
 <p class="copy">&copy; Dino-APP 2018</p>
 </footer>
- <script src="../../static/javascript/menu.js""></script>
+ <script src="../../static/javascript/base/jquery-3.3.1.js"></script>
+ <script src="../../static/javascript/base/popper.js"></script>
+ <script src="../../static/javascript/base/bootstrap.js"></script>
 </body>
 </html>
 

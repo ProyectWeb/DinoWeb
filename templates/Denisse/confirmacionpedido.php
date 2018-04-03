@@ -20,19 +20,20 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
 
     <!-- styles -->
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css" rel="stylesheet">
+    <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../static/css/animate.min.css" rel="stylesheet">
+    <link href="../../static/css/owl.carousel.css" rel="stylesheet">
+    <link href="../../static/css/owl.theme.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../static/css/catalogoestilos/bootstrap.css">
 
     <!-- theme stylesheet -->
-    <link href="css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+    <link href="../../static/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
 
     <!-- your stylesheet with modifications -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="../../static/css/custom.css" rel="stylesheet">
 
-    <script src="js/respond.min.js"></script>
+    <script src="../../static/javascript/base/respond.min.js"></script>
 
   <!--  <link rel="shortcut icon" href="favicon.png">-->
 
@@ -41,6 +42,9 @@
 </head>
 
 <body>
+<?php
+include('../Richi/navBar.html');
+?>
     <!-- *** TOPBAR ***
  _________________________________________________________ -->
 
@@ -192,14 +196,14 @@
 
     <!-- *** SCRIPTS TO INCLUDE ***
  _________________________________________________________ -->
-    <script src="js/jquery-1.11.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.cookie.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/modernizr.js"></script>
-    <script src="js/bootstrap-hover-dropdown.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/front.js"></script>
+    <script src="../../static/javascript/base/jquery-1.11.0.min.js"></script>
+    <script src="../../static/javascript/base/bootstrap.min.js"></script>
+    <script src="../../static/javascript/base/jquery.cookie.js"></script>
+    <script src="../../static/javascript/base/waypoints.min.js"></script>
+    <script src="../../static/javascript/base/modernizr.js"></script>
+    <script src="../../static/javascript/base/bootstrap-hover-dropdown.js"></script>
+    <script src="../../static/javascript/base/owl.carousel.min.js"></script>
+    <script src="../../static/javascript/base/front.js"></script>
 
 
 

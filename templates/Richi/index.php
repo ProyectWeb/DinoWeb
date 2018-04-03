@@ -153,7 +153,7 @@
     <!--Archivos JS-->
     <script src="../../static/javascript/base/jquery-3.3.1.js"> </script>
     <script src="../../static/javascript/base/popper.js"> </script>
-    <script src="../../static/javascript/bootstrap.js"> </script>
+    <script src="../../static/javascript/base/bootstrap.js"> </script>
     <script src="../../static/javascript/base/Chart.js"> </script>
     <script>
         var ctx = document.getElementById("myChart").getContext('2d');
