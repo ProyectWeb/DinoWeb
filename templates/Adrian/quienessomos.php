@@ -11,6 +11,9 @@
 
 </head>
 <body>
+ <?php
+   include('../Richi/navBar.html');
+ ?>
  <header class="header">
  	<div class="contenedor">
  		<h1 class="logo">DINO-WEB</h1>
@@ -19,7 +22,7 @@
  			<ul class="menu">
  				<li class="menu__item"><a class="menu__link" href="">inicio</a></li>
  				<li class="menu__item"><a class="menu__link" href="">Catalogos</a></li>
- 				<li class="menu__item"><a class="menu__link select" href="quienessomos.html">Quienes somos</a></li>
+ 				<li class="menu__item"><a class="menu__link select" href="quienessomos.php">Quienes somos</a></li>
  				<li class="menu__item"><a class="menu__link" href="">graficas</a></li>
  			</ul>
  		</nav>
@@ -36,12 +39,12 @@
 <div class="contenedor">
 	<section class="info">
 		<article class="info__columna">
-			<img src="../../static/img/mision.png" alt="" class="info__img">
+			<img src="../../static/images/mision.png" alt="" class="info__img">
 			<h2 class="info__titulo">Mision</h2>
 			<p ALIGN="justify" class="info__txt">Dino-app es una empresa que busca desarrollar aplicaciones de acuerdo con las necesidades del cliente,garantizando su satisfacción con el producto.</p>
 		</article>
 		<article class="info__columna">
-			<img src="../../static/img/vision.png" alt="" class="info__img">
+			<img src="../../static/images/vision.png" alt="" class="info__img">
 			<h2 class="info__titulo">Vision</h2>
 			<p ALIGN="justify" class="info__txt">Se pretenden lograr  objetivos adaptados a diferentes ámbitos:<br>
 
@@ -50,7 +53,7 @@ Aplicación: Ofrecer variadas opciones dentro de la aplicación de calidad que s
 </p>
 		</article>
 		<article class="info__columna">
-			<img src="../../static/img/valores.png" alt="" class="info__img">
+			<img src="../../static/images/valores.png" alt="" class="info__img">
 			<h2 class="info__titulo">Valores</h2>
 			<p ALIGN="justify" class="info__txt">El logro de nuestros objetivos se rige con los siguientes valores:<br>
 
@@ -69,21 +72,21 @@ Calidad: búsqueda de la excelencia
 	<section class="cursos">
 		<h2 class="section__titulo">Productos a comercializar</h2>s
 		<div class="cursos__columna">
-			<img src="../../static/img/trabajo1.png" alt="" class="cursos__img">
+			<img src="../../static/images/trabajo1.png" alt="" class="cursos__img">
 			<div class="cursos__descripcion">
 				<h3 class="cursos__titulo">Búsqueda de empleo</h3>
 				<p  class="cursos__txt"> Lo que se busca con esta aplicación es facilitar a las personas la búsqueda de empleo.</p>
 			</div>
 		</div>
 		<div class="cursos__columna">
-			<img src="../../static/img/sucursal.jpg" alt="" class="cursos__img">
+			<img src="../../static/images/sucursal.jpg" alt="" class="cursos__img">
 			<div class="cursos__descripcion">
 				<h3 class="cursos__titulo">Ubicación de sucursales</h3>
 				<p  class="cursos__txt">Se pretende realizar una aplicación que ayude a la ubicación de diferentes sucursales.</p>
 			</div>
 		</div>
 		<div class="cursos__columna">
-			<img src="../../static/img/jugar.jpg" alt="" class="cursos__img">
+			<img src="../../static/images/jugar.jpg" alt="" class="cursos__img">
 			<div class="cursos__descripcion">
 				<h3 class="cursos__titulo">Jugar y aprender</h3>
 				<p  class="cursos__txt">Se desarrollaran juegos con los que además de divertirte, podrás aprender sobre diferentes temas.
@@ -91,7 +94,7 @@ Calidad: búsqueda de la excelencia
 			</div>
 		</div>
 		<div class="cursos__columna">
-			<img src="../../static/img/Educacion.jpg" alt="" class="cursos__img">
+			<img src="../../static/images/Educacion.jpg" alt="" class="cursos__img">
 			<div class="cursos__descripcion">
 				<h3 class="cursos__titulo">Educación</h3>
 				<p  class="cursos__txt">En esta aplicación se podrán ver diferentes asignaturas escolares, además  de incluir información,contará con diferentes ejercicios y la resolución de estos.
