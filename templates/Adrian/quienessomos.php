@@ -12,7 +12,7 @@
 </head>
 <body>
  <?php
-   include('../Richi/navBar.html');
+   include('../Richi/navBar.php');
  ?>
  <header class="header">
  	<div class="contenedor">
