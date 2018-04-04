@@ -1,0 +1,33 @@
+.btn-sld{
+    background: #4fbea8;
+    padding: 30px;
+    color: white;
+    border: white solid 10px;
+    text-align: center;
+}
+
+.btn-sld > a {
+    color: white;
+    cursor: default;
+    pointer-events: none;
+}
+
+.btn-sld > a > i {
+    font-size: 50px;
+}
+
+.btn-sld.active{
+    background: #7767b1;
+}
+
+.card{
+    box-shadow: 5px 5px #888888;
+    margin: 15px;
+    padding: 15px;
+}
+.image-pay{
+    height: 150px;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
