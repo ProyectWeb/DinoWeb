@@ -18,7 +18,7 @@
     </head>
     <body>
         <?php
-            include('../Richi/navBar.html');
+            include('../Richi/navBar.php');
         ?>
         <!--Imagen principal inicio-->
         <div class="page-title-area pt-100 pb-100" style="background-image:url(../../static/images/shop/p.jpg);">

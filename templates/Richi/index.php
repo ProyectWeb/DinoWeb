@@ -14,7 +14,8 @@
 
     <!-- Nav Bar -->
     <?php
-        include('navBar.html');
+        include('../main/session.php');
+        include('navBar.php');
     ?>
 
     <!--Carrusel-->
