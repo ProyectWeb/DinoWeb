@@ -25,7 +25,6 @@
     <link href="../../static/css/animate.min.css" rel="stylesheet">
     <link href="../../static/css/owl.carousel.css" rel="stylesheet">
     <link href="../../static/css/owl.theme.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../static/css/catalogoestilos/bootstrap.css">
 
     <!-- theme stylesheet -->
     <link href="../../static/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
@@ -72,13 +71,12 @@ include('../Richi/navBar.html');
                 <div class="col-md-9" id="checkout">
 
                     <div class="box">
-                        <form method="post" action="home.html">
+                        <form method="post" action="Pago.html">
                             <h1 align ="center">Confirmación del pedido</h1>
                             <ul class="nav nav-pills nav-justified">
                                 <li><a href="infodelpedido.html"><i class="fa fa-user"></i><br>Datos</a>
                                 </li>
-                                <li><a href="pago.html"><i class="fa fa-money"></i><br>Método de pago</a>
-                                </li>
+                                <li><a href="Pago.html"><i class="fa fa-money"></i><br>Método de pago</a>
                                 </li>
                                 <li class="active"><a href="#"><i class="fa fa-eye"></i><br>Confirmación de pedido</a>
                                 </li>
@@ -138,7 +136,7 @@ include('../Richi/navBar.html');
 
                             <div class="box-footer">
                                 <div class="pull-left">
-                                    <a href="home.html" class="btn btn-default"><i class="fa fa-chevron-left"></i>Cancelar</a>
+                                    <a href="Pago.html" class="btn btn-default"><i class="fa fa-chevron-left"></i>Cancelar</a>
                                 </div>
                                 <div class="pull-right">
                                     <button type="submit" class="btn btn-primary">Continuar<i class="fa fa-chevron-right"></i>
@@ -156,11 +154,7 @@ include('../Richi/navBar.html');
                 <div class="col-md-3">
 
                    
-                                </tbody>
-                            </table>
-                        </div>
 
-                    </div>
 
                 </div>
                 <!-- /.col-md-3 -->
