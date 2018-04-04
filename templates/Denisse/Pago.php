@@ -14,18 +14,18 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
 
     <!-- styles -->
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css" rel="stylesheet">
+    <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../static/css/animate.min.css" rel="stylesheet">
+    <link href="../../static/css/owl.carousel.css" rel="stylesheet">
+    <link href="../../static/css/owl.theme.css" rel="stylesheet">
 
     <!-- theme stylesheet -->
-    <link href="css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+    <link href="../../static/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
 
     <!-- your stylesheet with modifications -->
-    <link href="css/custom.css" rel="stylesheet">
-    <script src="js/respond.min.js"></script>
+    <link href="../../static/css/custom.css" rel="stylesheet">
+    <script src="../../static/javascript/base/respond.min.js"></script>
 </head>
 <body>
   <div class="navbar navbar-default yamm" role="navigation" id="navbar">
@@ -49,12 +49,12 @@
                             <ul class="nav nav-pills nav-justified">
                                 
                                 <ul class="nav nav-pills nav-justified">
-                                <li><a href="infodelpedido.html"><i class="fa fa-user"></i><br>Datos</a>
+                                <li><a href="infodelpedido.php"><i class="fa fa-user"></i><br>Datos</a>
                                 </li>
-                               <li class="active"><a href="pago.html"><i class="fa fa-money"></i><br>Método de pago</a>
+                               <li class="active"><a href="Pago.php"><i class="fa fa-money"></i><br>Método de pago</a>
                                 </li>
-                                </li>
-                                 <li><a href="infodelpedido.html"><i class="fa fa-eye"></i><br>Confirmación del pedido</a>
+
+                                 <li><a href="infodelpedido.php"><i class="fa fa-eye"></i><br>Confirmación del pedido</a>
                                
                                 </li>
                                 </ul>
@@ -68,7 +68,7 @@
 
                                             <p>
                                                 
-                           <img src="img/paypal.png"   width="150" height="150"> 
+                           <img src="../../static/images/paypal.png"   width="150px" height="150px">
 
 
                                             </p>
@@ -85,7 +85,7 @@
                                             <h4>Debito o Crédito</h4>
 
                                             <p>
-                                 <img src="img/visa.png"   width="170" height="150"> 
+                                 <img src="../../static/images/visa.png"   width="170px" height="150px">
                                             </p>
 
                                             <div class="box-footer text-center">
@@ -107,27 +107,23 @@
 
                             <div class="box-footer">
                                 <div class="pull-left">
-                                <a href="shop.php" class="btn btn-default"><i class="fa fa-chevron-left"></i>Cancelar</a>
+                                <a href="../Laura/shop.php" class="btn btn-default"><i class="fa fa-chevron-left"></i>Cancelar</a>
                                 </div>
                                 <div class="pull-right">
                                 <a href="confirmacionpedido.php" class="btn btn-default"><i class="fa fa-chevron-right"></i> Continuar con la compra </a>
                                  <!--   <button type="submit" class="btn btn-primary">Continuar con la compra<i class="fa fa-chevron-right" -->  
 
 
-                                        ></i>
-                                    </button>
-
-
 
                                 </div>
                             </div>
-                        </form>
+
                     </div>
                     <!-- /.box -->
 
 
                 </div> <div class="col-md-3 col-sm-6">
-                    </form>
+
 
                         <hr>
 
@@ -141,7 +137,7 @@
         </div>
        
 
-                    </p>
+
                 </div>
             </div>
         </div>
@@ -156,15 +152,14 @@
 
     <!-- *** SCRIPTS TO INCLUDE ***
  _________________________________________________________ -->
-    <script src="js/jquery-1.11.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.cookie.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/modernizr.js"></script>
-    <script src="js/bootstrap-hover-dropdown.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/front.js"></script>
-
+  <script src="../../static/javascript/base/jquery-1.11.0.min.js"></script>
+  <script src="../../static/javascript/base/bootstrap.min.js"></script>
+  <script src="../../static/javascript/base/jquery.cookie.js"></script>
+  <script src="../../static/javascript/base/waypoints.min.js"></script>
+  <script src="../../static/javascript/base/modernizr.js"></script>
+  <script src="../../static/javascript/base/bootstrap-hover-dropdown.js"></script>
+  <script src="../../static/javascript/base/owl.carousel.min.js"></script>
+  <script src="../../static/javascript/base/front.js"></script>
 
 
 
