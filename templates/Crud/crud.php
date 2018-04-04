@@ -18,7 +18,7 @@
 </head>
 <body>
 <?php
-include('../Richi/navBar.html');
+include('../Richi/navBar.php');
 ?>
 <div class="todo">
   
