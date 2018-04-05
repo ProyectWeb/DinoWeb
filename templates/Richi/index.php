@@ -118,6 +118,20 @@
     <script src="../../static/javascript/base/bootstrap.js"> </script>
     <script src="../../static/javascript/base/Chart.js"> </script>
     <script>
+        $('#logout').click(function() {
+
+            console.log("WTF");
+            $.ajax({
+                type: "POST",
+                url: "logout.php",
+                success: function (obj) {
+                    location.reload();
+                }
+            });
+        });
+
+    </script>
+    <script>
         var ctx = document.getElementById("myChart").getContext('2d');
         var myChart = new Chart(ctx, {
             type: 'bar',

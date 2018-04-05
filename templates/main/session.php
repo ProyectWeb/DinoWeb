@@ -6,8 +6,8 @@
     $check_name = mysqli_query($conn,$sql);
 
     if(!isset($_SESSION['login_user'])){
-        $estado = "Cerrar Sesion";
+        $estado = 0;
     }else{
-        $estado = "Iniciar Sesion";
+        $estado = 1;
     }
 ?>

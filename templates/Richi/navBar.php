@@ -1,40 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Rich
- * Date: 14/03/2018
- * Time: 12:26 AM
- */
-
-include("../main/connection.php");
-session_start();
-
-
-if($_SERVER["REQUEST_METHOD"]=="POST"){
-
-    $email = mysqli_real_escape_string($conn,$_POST['inputEmail']);
-    $pass = mysqli_real_escape_string($conn,$_POST['inputPassword']);
-
-    $sql = "select correo from usuario where correo = '$email'";
-    $check_name = mysqli_query($conn,$sql);
-
-    if (mysqli_num_rows($check_name)==0){
-        echo '<script language="javascript">';
-        echo 'alert("No existe el usuario")';
-        echo '</script>';
+    session_start();
+    if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+        echo $_SESSION['superusuario'];
+        $estado = 1;
     }else{
-        $sql = "select password from usuario where password = '$pass'";
-        $check_pass = mysqli_query($conn,$sql);
-        if (mysqli_num_rows($check_pass)==0){
-            echo "Contraseña incorrecta";
-        }else{
-            header("location: index.php");
-        }
+        $estado = 0;
     }
-
-
-}
-
 ?>
 
 <!-- Image and text -->
@@ -58,15 +29,24 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
                 <li class="nav-item">
                     <a class="nav-link" href="../Jose/analytics.php">Graficas</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../Crud/crud.php">Administracion</a>
-                </li>
+                <?php
+                if ($_SESSION['superusuario']=1)
+                    echo '<li class="nav-item">
+                            <a class="nav-link" href="../Crud/crud.php">Administracion</a>
+                          </li>';
+                ?>
+
             </ul>
             <ul class="navbar-nav">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-secundary" data-toggle="modal" data-target="#exampleModal">
-                    <?php echo $estado ?>
-                </button>
+
+                <?php
+                    if ($estado == 0){
+                        echo '<button type="button" class="btn btn-secundary" data-toggle="modal" data-target="#exampleModal">Iniciar Sesion</button>';
+                    }else{
+                        echo '<button type="button" class="btn btn-secundary" id="logout">Cerrar Sesion</button>';
+                    }
+                ?>
             </ul>
         </div>
     </div>
@@ -83,7 +63,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
                 </button>
             </div>
             <div class="modal-body">
-                <form method="post">
+                <form method="post" action="login.php">
                     <div class="form-group row">
                         <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
                         <div class="col-sm-10">
