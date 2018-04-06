@@ -1,7 +1,7 @@
 <?php
     define('servername','localhost');
     define('username','root');
-    define('password','qonmqa3p');
+    define('password','12345678');
     define('database','DinnoApp');
     // Create connection
     $conn = mysqli_connect(servername, username, password, database);

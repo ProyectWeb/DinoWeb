@@ -25,6 +25,39 @@ include('../Richi/navBar.php');
   <div id="cabecera">
     <img src="../../static/images/swirl.png" height="200px" width="100%">
   </div>
+
+
+    <!-- Modal para enviar correo-->
+    <!-- Button trigger modal -->
+
+
+    <!-- Usar modal para enviar correo-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--PDF-->
+    <div class="container">
+        <a target="_blank" href="usuarios.php" class="btn btn-danger">Exportar PDF</a>
+    </div>
   
 
   <!--Se declara los campos para representarlos en una tabla-->
@@ -62,6 +95,7 @@ include('../Richi/navBar.php');
           echo "<td>"; echo $filas['superusuario']; echo "</td>";
           echo "<td>"; echo $filas['administrador']; echo "</td>";
           echo "<td>"; echo $filas['create_date']; echo "</td>";
+          echo "<td> <button type='button' class='btn btn-primary' data-toggle='modal' data-target='#exampleModal'>Enviar Correo </button>";
           echo "<td>  <a href='modif_usuario.php?idUsuario=".$filas['idUsuario']."'> <button type='button' class='btn btn-success'>Modificar</button> </a> </td>";
           echo "<td> <a href='eliminar.php?idUsuario=".$filas['idUsuario']."''><button type='button' class='btn btn-danger'>Eliminar</button></a> </td>";
         echo "</tr>";

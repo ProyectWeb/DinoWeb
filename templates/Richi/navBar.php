@@ -47,7 +47,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         <div id="navbarNavDropdown" class="navbar-collapse collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="../Laura/shop.php">Catalogo<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Laura/catalogo.php">Catalogo<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../Denisse/confirmacionpedido.php">Precios</a>
