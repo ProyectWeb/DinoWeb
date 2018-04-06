@@ -174,8 +174,6 @@ label {
 }
 
 
-
-
 /*Estilos tarjetas*/
 .product-item{
     margin-bottom: 70px;
@@ -204,3 +202,16 @@ label {
     height: 230px;
     width: 285px;
 }
+
+/*Estilos Cards*/
+
+.card{
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 5px 10px grey;
+}
+
+
+
+
+
