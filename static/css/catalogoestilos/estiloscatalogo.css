@@ -17,19 +17,10 @@ body {
 .fix {
     overflow: hidden
 }
-a,
-.button {
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
-}
-a:focus,
-.button:focus {
+a{
     text-decoration: none;
-    outline: none;
 }
+
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
@@ -37,17 +28,7 @@ a:hover,
     color: #2B96CC;
     text-decoration: none;
 }
-a,
-button {
-    color: #1696e7;
-    outline: medium none;
-}
-.uppercase {
-    text-transform: uppercase;
-}
-.capitalize {
-    text-transform: capitalize;
-}
+
 h1,
 h2,
 h3,
@@ -180,8 +161,10 @@ label {
 
 .card{
     padding: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
     box-shadow: 5px 10px #b8b8b8;
+    
+    height: 449.88px;
 }
 
     .text{
@@ -195,5 +178,70 @@ label {
     padding: 8px;
 }
 
+.text-main{
+    margin-bottom: 60px;
+    background: #3f3f3f;
+    border-bottom: 5px solid #d3d3d3;
+    font: normal normal 18px quicksand;
+    color:#ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px;
+}
 
+
+.shop-sidebar{
+    margin-top:110px;
+    margin-bottom: 30px;
+}
+
+
+.shop-sidebar button{
+    border-bottom: 5px solid #3f3f3f;
+    padding: 15px black;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font: normal normal 20px quicksand;
+    color: #3f3f3f; 
+    background: white;
+}
+
+
+
+/*Estilos pagina encargo*/
+
+.write{
+    font: normal normal 30px quicksand;
+    color: #3f3f3f; 
+    margin-bottom: 30px;
+}
+
+.write-step{
+    font: normal normal 19px quicksand;
+    color: #3f3f3f; 
+}
+
+.step1{
+    margin-bottom: 30px;
+}
+
+.step2{
+    margin-bottom: 30px;
+}
+
+.step3{
+    margin-bottom: 30px;
+}
+
+
+.special{
+    border-bottom: 5px solid #3f3f3f;
+    padding: 15px black;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font: normal normal 20px quicksand;
+    color: #3f3f3f; 
+    background: white;
+}
 

@@ -17,7 +17,7 @@ $pdf-> Ln(8);
 $pdf-> Ln(15);
 $pdf-> SetFont('Arial','B',8);
 $pdf-> Cell(15,8,'idUsuario',0);
-$pdf-> Cell(25,8,'correo',0);
+$pdf-> Cell(29,8,'correo',0);
 $pdf-> Cell(20,8,'password',0);
 $pdf-> Cell(20,8,'nombre',0);
 $pdf-> Cell(20,8,'edad',0);
@@ -35,7 +35,7 @@ $idUsuario=0;
 while ($usuarios2=mysql_fetch_array($usuarios)) {
     $idUsuario = $idUsuario+1;
     $pdf->Cell(15,8,$idUsuario,0);
-    $pdf->Cell(25,8,$usuarios2['correo'],0);
+    $pdf->Cell(29,8,$usuarios2['correo'],0);
     $pdf->Cell(20,8,$usuarios2['password'],0);
     $pdf->Cell(20,8,$usuarios2['nombre'],0);
     $pdf->Cell(20,8,$usuarios2['edad'],0);
