@@ -174,44 +174,26 @@ label {
 }
 
 
-/*Estilos tarjetas*/
-.product-item{
-    margin-bottom: 70px;
-}
 
-.shop-sidebar{
-    margin-bottom: 50px;
-}
-
-
-.shop-sidebar a{
-    padding: 10px;
-    display: inline-block;
-    font-size: 15px;
-    color: #666;
-}
-
-.product-img{
-    display: block;
-    background-position: center;
-    background-size: cover;
-}
-
-
-.product-img img{
-    height: 230px;
-    width: 285px;
-}
 
 /*Estilos Cards*/
 
 .card{
     padding: 15px;
     margin-bottom: 10px;
-    box-shadow: 5px 10px grey;
+    box-shadow: 5px 10px #b8b8b8;
 }
 
-
+    .text{
+    background: #b8b8b8;
+    border-bottom: 5px solid #b5f2f2;
+    font: normal normal 18px quicksand;
+    color:#ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px;
+}
 
 
 

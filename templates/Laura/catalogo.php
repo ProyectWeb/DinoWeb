@@ -75,9 +75,9 @@
         <div class="row store-wrapper">
             <!--Inicio categorias-->
             <div class="col-md-2 shop-sidebar">
-                <button id="allcategory" class="btn btn-primary col-12">Todas las categorias</button>
-                <button id="divulgacion" class="btn btn-primary col-12">Divulgacion cientifica</button>
-                <button id="juega" class="btn btn-primary col-12">Juega Y Aprende</button>
+                <button id="allcategory" class="btn btn-primary col-12">Todas las categorías</button>
+                <button id="divulgacion" class="btn btn-primary col-12">Divulgacion científica</button>
+                <button id="juega" class="btn btn-primary col-12">Juega y aprende</button>
                 <button id="empresas" class="btn btn-primary col-12">Empresas</button>
                 <button id="curriculum" class="btn btn-primary col-12">Curriculum</button>
             </div>
@@ -86,11 +86,11 @@
                 <!--Inicio Seccion Cards -->
 
                 <div class="col-12">
-                    <center><h1 class="divulgacion">Divulgacion Cientifica</h1></center>
+                    <center><h1 class="divulgacion text">Divulgación científica</h1></center>
                     <div class="row">
                         <div class="col-4">
                             <div class="card divulgacion">
-                                <h5>Plantilla 1</h5>
+                                <h5 class="text">Plantilla learning</h5>
                                 <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
@@ -100,8 +100,8 @@
                         </div>
                         <div class="col-4">
                             <div class="card divulgacion">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla study</h5>
+                                <img src="../../static/images/shop/divul2.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -110,8 +110,8 @@
                         </div>
                         <div class="col-4">
                             <div class="card divulgacion">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla aqua</h5>
+                                <img src="../../static/images/shop/divulgacion3.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -120,8 +120,8 @@
                         </div>
                         <div class="col-4">
                             <div class="card divulgacion">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla investigation</h5>
+                                <img src="../../static/images/shop/divulgacio4.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -130,8 +130,8 @@
                         </div>
                         <div class="col-4">
                             <div class="card divulgacion">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla animals</h5>
+                                <img src="../../static/images/shop/divulgacio5.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -140,8 +140,8 @@
                         </div>
                         <div class="col-4">
                             <div class="card divulgacion">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla plants</h5>
+                                <img src="../../static/images/shop/divulgacio6.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -149,12 +149,15 @@
                             </div>
                         </div>
                     </div>
-                    <center><h1 class="juega">Juega Y Aprende</h1></center>
+
+
+
+                    <center><h1 class="juega text">Juega y aprende</h1></center>
                     <div class="row">
                         <div class="col-4">
                             <div class="card juega">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla aprendizaje</h5>
+                                <img src="../../static/images/shop/juega1.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -163,8 +166,8 @@
                         </div>
                         <div class="col-4">
                             <div class="card juega">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla study</h5>
+                                <img src="../../static/images/shop/juega2.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -173,8 +176,8 @@
                         </div>
                         <div class="col-4">
                             <div class="card juega">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla aqua</h5>
+                                <img src="../../static/images/shop/juega3.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -183,8 +186,8 @@
                         </div>
                         <div class="col-4">
                             <div class="card juega">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla investigation</h5>
+                                <img src="../../static/images/shop/jueg4.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -193,8 +196,8 @@
                         </div>
                         <div class="col-4">
                             <div class="card juega">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla game</h5>
+                                <img src="../../static/images/shop/jueg5.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -203,8 +206,8 @@
                         </div>
                         <div class="col-4">
                             <div class="card juega">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla play</h5>
+                                <img src="../../static/images/shop/jueg6.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -212,12 +215,12 @@
                             </div>
                         </div>
                     </div>
-                    <center><h1 class="curriculum">Curriculum</h1></center>
+                    <center><h1 class="curriculum ">Curriculum</h1></center>
                     <div class="row">
                         <div class="col-4">
                             <div class="card curriculum">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla business</h5>
+                                <img src="../../static/images/shop/curri1.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -226,8 +229,8 @@
                         </div>
                         <div class="col-4 curriculum">
                             <div class="card">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla searching</h5>
+                                <img src="../../static/images/shop/curri2.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -236,8 +239,8 @@
                         </div>
                         <div class="col-4 curriculum">
                             <div class="card">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla hotels</h5>
+                                <img src="../../static/images/shop/curri3.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -246,8 +249,8 @@
                         </div>
                         <div class="col-4 curriculum">
                             <div class="card">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla building</h5>
+                                <img src="../../static/images/shop/curri4.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -256,8 +259,8 @@
                         </div>
                         <div class="col-4 curriculum">
                             <div class="card">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla food</h5>
+                                <img src="../../static/images/shop/curri5.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -266,8 +269,8 @@
                         </div>
                         <div class="col-4 curriculum">
                             <div class="card">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla fruit</h5>
+                                <img src="../../static/images/shop/curri6.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -275,12 +278,12 @@
                             </div>
                         </div>
                     </div>
-                    <center><h1 class="empresa">Empresa</h1></center>
+                    <center><h1 class="empresa  text">Empresa</h1></center>
                     <div class="row">
                         <div class="col-4">
                             <div class="card empresa">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla Clarence</h5>
+                                <img src="../../static/images/shop/empresa1.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -289,8 +292,8 @@
                         </div>
                         <div class="col-4">
                             <div class="card empresa">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla John Dge</h5>
+                                <img src="../../static/images/shop/empresa2.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -299,8 +302,8 @@
                         </div>
                         <div class="col-4">
                             <div class="card empresa">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla company</h5>
+                                <img src="../../static/images/shop/empresa3.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -309,8 +312,8 @@
                         </div>
                         <div class="col-4">
                             <div class="card empresa">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla pink</h5>
+                                <img src="../../static/images/shop/empresa4.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -319,8 +322,8 @@
                         </div>
                         <div class="col-4">
                             <div class="card empresa">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla girl</h5>
+                                <img src="../../static/images/shop/empresa5.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <button class="btn btn-info">Demo</button>
@@ -329,12 +332,12 @@
                         </div>
                         <div class="col-4">
                             <div class="card empresa">
-                                <h5>Plantilla 1</h5>
-                                <img src="../../static/images/shop/divulgacion1.jpg" width="100%" alt="">
+                                <h5 class="text">Plantilla Clark</h5>
+                                <img src="../../static/images/shop/empresa6.jpg" width="100%" alt="">
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
-                                <button class="btn btn-info">Demo</button>
-                                <button class="btn btn-primary">Comprar</button>
+                                <button class="btn btn-info ">Demo</button>
+                                <button class="btn btn-secondary">Comprar</button>
                             </div>
                         </div>
                     </div>
