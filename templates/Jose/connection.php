@@ -1,9 +1,9 @@
 <?php
 function conectar(){
-	$user="root";
-	$pass="qonmqa3p";
+	$user="id3627976_root";
+	$pass="123456789";
 	$server="localhost";
-	$db="DinnoApp";
+	$db="id3627976_dinnoapp";
 	$con =mysqli_connect($server,$user,$pass,$db) or die("Error al conectar".mysql_error());
 return $con;
 }

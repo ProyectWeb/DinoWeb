@@ -1,6 +1,6 @@
 <?php 
-$conexion = mysql_connect("localhost","root","qonmqa3p");
-mysql_select_db("dinnoapp",$conexion);
+$conexion = mysql_connect("localhost","id3627976_root","123456789");
+mysql_select_db("id3627976_dinnoapp",$conexion);
 
 mysql_query("SETNAMES 'utf8'");
 
