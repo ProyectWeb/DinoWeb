@@ -58,8 +58,10 @@
             $ext = substr($nombreArchivo, strrpos($nombreArchivo, '.'));
             //si la extensión esta dentro del arreglo se acepta.
             if (in_array($ext, $formatos)) {
-                if (move_uploaded_file($nombreTmpArchivo, "../../static/subirarchivos-pedidos/$nombreArchivo")) {
-                    echo "Archivo $nombreArchivo subido exitosamente";
+                if (move_uploaded_file($nombreTmpArchivo, "../../static/upload-files/$nombreArchivo")) {
+                    echo '<script language="javascript">alert("Archivo ';
+                    echo $nombreArchivo;
+                    echo ' se ah subido correctamente. En brevedad un asesor se pondra en contacto con usted");</script>';
                 }else{
                     echo "Ocurrió un error";
                 }
@@ -84,7 +86,6 @@
 						Por lo que a continuación encontrarás un pequeño manual con los datos que necesitamos en DinnoWeb para ayudarte a crear un diseño adecuado para tú página personal o para tú empresa.
 						</p>
 					</div>
-					
 
 					<div class="step1">
 						<h3>1. Definir los requerimientos y el contenido del sitio web</h3>
@@ -131,6 +132,7 @@
 					</div>
 				</div>
 			</div>
+
 			</div>
 			
 		</div>

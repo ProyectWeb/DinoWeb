@@ -51,11 +51,7 @@
         
             <?php
             include('card.php');
-            ?>    
-
-            
-        
-
+            ?>
 
         <!--Fin Seccion Cards-->
     </div>

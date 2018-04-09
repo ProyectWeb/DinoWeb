@@ -1,3 +1,8 @@
+<?php
+    echo $variable1=($_GET['variable1']);
+    echo $variable2=($_GET['variable2']);
+?>
+
 <!DOCTYPE html>
 
 <html>

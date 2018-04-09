@@ -13,7 +13,6 @@
             <div class="col-md-10 products-list">
                 <!--Inicio Seccion Cards -->
 
-
                 <!--Inicio divulgación cientifica -->
                 <div class="col-12">
                     <center><h1 class="divulgacion text-main">Divulgación científica</h1></center>
@@ -25,7 +24,7 @@
                                 <p>Descripcion Lorem ipsum dolor sit amet, consectetur adipisicing elit.    </p>
                                 <h6>Precio: 400$ </h6>
                                 <a class="btn btn-secondary" href="../dinotemplates/divulgacioncientifica/education/index.html">Demo</a>
-                                <a href="#" class="btn btn-dark">Comprar</a>
+                                <a href="../Denisse/confirmacionpedido.php?variable1=<?php echo $variable1 ?>&variable2=<?php echo $variable2?>" class="btn btn-dark">Comprar</a>
                             </div>
                         </div>
                         <div class="col-4">

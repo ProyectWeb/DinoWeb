@@ -1,7 +1,6 @@
 <?php
     session_start();
     if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
-        echo $_SESSION['superusuario'];
         $estado = 1;
     }else{
         $estado = 0;
@@ -21,16 +20,16 @@
                     <a class="nav-link" href="../Laura/catalogo.php">Catalogo<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../Denisse/confirmacionpedido.php">Precios</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="../Adrian/quienessomos.php">Acerca</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../Jose/analytics.php">Graficas</a>
-                </li>
                 <?php
-                if ($_SESSION['superusuario']=1)
+                if ($_SESSION['superusuario']='1' or $_SESSION['administrador']='1')
+                    echo '<li class="nav-item">
+                            <a class="nav-link" href="../Jose/analytics.php">Graficas</a>
+                          </li>';
+                ?>
+                <?php
+                if ($_SESSION['superusuario']='1')
                     echo '<li class="nav-item">
                             <a class="nav-link" href="../Crud/crud.php">Administracion</a>
                           </li>';
