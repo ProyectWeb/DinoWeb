@@ -32,25 +32,50 @@ include('../Richi/navBar.php');
 
 
     <!-- Usar modal para enviar correo-->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
+    <!-- Button to Open the Modal -->
+
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Enviar correo</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+
+
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form  method="post" action="Enviar_mail.php">
+                <h1>Direccion de email *</h1>
+                <input type="text" name="email" maxlength="80" size="35">
+               
+                <h1>Asunto</h1>
+                 <input type="text" name="asunto" id="asunto"></td>
+                
+                <h1>Comentarios</h1>
+                
+                <textarea name="comentarios" maxlength="500" cols="30" rows="5"></textarea>
+                <input type="submit" class="btn btn-primary" value="Enviar">
+    
+              </form>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
         </div>
+      </div>
     </div>
+
+    
 
 
 
@@ -95,7 +120,7 @@ include('../Richi/navBar.php');
           echo "<td>"; echo $filas['superusuario']; echo "</td>";
           echo "<td>"; echo $filas['administrador']; echo "</td>";
           echo "<td>"; echo $filas['create_date']; echo "</td>";
-          echo "<td> <button type='button' class='btn btn-primary' data-toggle='modal' data-target='#exampleModal'>Enviar Correo </button>";
+          echo "<td> <button type='button' class='btn btn-primary' data-toggle='modal' data-target='#myModal'>Enviar Correo </button>";
           echo "<td>  <a href='modif_usuario.php?idUsuario=".$filas['idUsuario']."'> <button type='button' class='btn btn-success'>Modificar</button> </a> </td>";
           echo "<td> <a href='eliminar.php?idUsuario=".$filas['idUsuario']."''><button type='button' class='btn btn-danger'>Eliminar</button></a> </td>";
         echo "</tr>";
@@ -115,6 +140,8 @@ include('../Richi/navBar.php');
 
 </div>
 
-
+   <script src="../../static/javascript/base/jquery-3.3.1.js"> </script>
+    <script src="../../static/javascript/base/popper.js"> </script>
+    <script src="../../static/javascript/base/bootstrap.js"> </script>
 </body>
 </html>

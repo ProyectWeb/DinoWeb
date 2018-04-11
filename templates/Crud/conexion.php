@@ -1,5 +1,5 @@
 <?php 
-$conexion = mysql_connect("localhost","root","12345678");
+$conexion = mysql_connect("localhost","root","");
 mysql_select_db("dinnoapp",$conexion);
 
 mysql_query("SETNAMES 'utf8'");

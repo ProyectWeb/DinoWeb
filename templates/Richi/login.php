@@ -8,7 +8,7 @@
 
     $servername = "localhost";
     $username = "root";
-    $password = "qonmqa3p";
+    $password = "";
     $database = "DinnoApp";
 
     // Create connection
