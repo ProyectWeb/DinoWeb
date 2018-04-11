@@ -88,7 +88,7 @@
         };
 
         $('#allcategory').click(function(){
-            hideall();
+            showall();
         });
         $('#divulgacion').click(function(){
             hideall();
